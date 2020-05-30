@@ -1,0 +1,21 @@
+body {
+    color: black;
+    font-weight: 400;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.page-item.active .page-link {
+  background-color: #1E1C66;
+  color: #ffffff;
+}
+
+.page-link {
+  color : #1E1C66;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+span.mat-checkbox-label {
+  text-transform: capitalize;
+}

@@ -1,0 +1,74 @@
+.pnr-success-btn {
+    background: #54B54A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 14px;
+}
+.pnr-success-btn i {
+    margin-right: 8px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.pnr-success-btn span {
+    color: #ffffff;
+    font-weight: bold;
+}
+.divider-box {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.divider {
+    border-bottom:1px solid #C0C0C0;
+    height: 1px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.ticket-label {
+    color: #1E1C66;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.ticket-box {
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.send-btn {
+    background: #1E1C66;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+.print-btn-box {
+    background: #F1C933;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.print-icon {
+    margin-left: 8px;
+    color: #1E1C66;
+}
+.print-btn-box span {
+    color: #1E1C66;
+    font-weight: bold;
+}
+thead tr {
+    color: #1E1C66;
+    font-weight: bold;
+}
+tbody td {
+    color: #1E1C66;
+    font-weight: bold;
+}

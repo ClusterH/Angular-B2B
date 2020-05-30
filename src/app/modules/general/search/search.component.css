@@ -1,0 +1,112 @@
+/* Caraosel parts end*/
+
+
+.top-content {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.arrow-airlines-icon-left {
+    position: absolute;
+    top:18px;
+    left: -11px;
+    color: #707070;
+}
+.arrow-airlines-icon-right {
+    position: absolute;
+    top:18px;
+    right: -11px;
+    color: #707070;
+}
+.whole-search {
+    padding-bottom: 40px !important;
+}
+.popover-card {
+    width: 260px !important;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .popover-info-box-1 {
+      margin-bottom: 7px;
+  }
+  .popover-title {
+      color:#425486;
+      font-weight: bold;
+      font-size: 15px;
+  }
+  .popover-content {
+    color:#425486;
+    font-weight: bold;
+    font-size: 11px;
+}
+.rotate-plane {
+    transform: rotate(90deg);
+}
+.baggage_icon {
+    margin-right: 7px;
+}
+.box-divider {
+    border-right: 1px solid #707070;
+    height:100px;
+}
+.box-empty {
+    padding-right: 10px;
+}
+.price-box {
+    position: relative;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-color: #A3A3A7;
+    padding: 5px;
+    margin-top: -16px;
+    width: 124px;
+    height: 16px;
+    margin-right: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #ffffff;
+}
+.price-sub-box {
+    position: absolute;
+    top: 4px;
+    /* left: 18px; */
+    width: 100%;
+    text-align: center;
+}
+.total-price-text {
+    color: #1E1C66;
+}
+.custom-book-btn {
+    margin-top: -15px;
+    border: 1px solid #1E1C66;
+    color: #1E1C66;
+    background: #ffffff;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.flight-card {
+    -webkit-box-shadow: 0px 4px 29px -8px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 4px 29px -8px rgba(0,0,0,0.57);
+    box-shadow: 0px 4px 29px -8px rgba(0,0,0,0.57);
+    border-radius: 5px;
+    margin-top : 10px;
+}
+
+.pagination-custom {
+    margin-top: 30px !important;
+}
+
+.selected-flight-btn {
+    background: #f1c933;
+    border: none;
+    color: #1e1c66;
+}
+
+
+.noFlightFound  img {
+    width: 80%;
+    margin-top : 30px;
+}

@@ -1,0 +1,324 @@
+<header>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark custom-nav" style="background-color: #131C66;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/params/images/logo/guzo_logo.png" width="60" height="60" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <mat-radio-group aria-label="Select an option">
+                            <mat-radio-button value="1" checked>PNR</mat-radio-button>
+                            <mat-radio-button value="2">Name</mat-radio-button>
+                            <mat-radio-button value="3">Ticket Number</mat-radio-button>
+                        </mat-radio-group>
+                        <input class="form-control custom-input" type="text" placeholder="Search">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="container-fluid row  container-fluid-custom">
+            <div class="label-box"><span class="label-text">Hello Gezachew Ayenew</span></div>
+            <div class="splider"></div>
+            <div><span class="label-text">Logout</span><i class="fa fa-power-off power-off-custom"></i></div>
+        </div>
+    </div>
+</header>
+
+<div class="container whole-search">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="label-box">
+                        <img src="../assets/params/images/logo/filter.png" class="flight-labels-img" width="30"
+                            height="30" alt="">
+                        <span class="flight-labels">Filter</span>
+                    </div>
+                    <div class="stopsLabel">
+                        <span class="stops-label-text">Stops</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row stop-item">
+                                <div class="col-md-2 offset-md-1">
+                                    <mat-checkbox [(ngModel)]="direct" class="example-margin" (change)="directFlightFilterChange($event)">Direct
+                                    </mat-checkbox>
+                                </div>
+                            </div>
+                            <div class="row stop-item">
+                                <div class="col-md-2 offset-md-1">
+                                    <mat-checkbox [(ngModel)]="one_stop" class="example-margin" (change)="oneStopFlightFilterChange($event)">1-Stop</mat-checkbox>
+                                </div>
+                            </div>
+                            <div class="row stop-item">
+                                <div class="col-md-2 offset-md-1">
+                                    <mat-checkbox [(ngModel)]="two_stop" class="example-margin" (change)="twoStopFlightFilterChange($event)">2-Stop</mat-checkbox>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stopsLabel">
+                        <span class="stops-label-text">Price</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6"><span class="price-text">{{ formatMoney("ETB" + sliderForm.value.sliderControl[0]) }}</span></div>
+                        <div class="col-md-6"><span class="price-text">{{ formatMoney("ETB" + sliderForm.value.sliderControl[1]) }}</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form [formGroup]="sliderForm">
+                                <ng5-slider formControlName="sliderControl" [options]="options" (valueChange)="priceSliderValueChanged($event)"></ng5-slider>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="stopsLabel">
+                        <span class="stops-label-text">Airlines</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row stop-item">
+                                <div class="col-md-2 offset-md-1" >
+                                    <mat-checkbox *ngFor="let carrier of airlines;let i = index" [(ngModel)]=" airlines[i]['checked'] " (change)="airlineFilterChange(airlines[i]['checked'], i)" class="example-margin">{{ getCarrierName(carrier['iatacode']) }}
+                                    </mat-checkbox>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-12 show-label-box">
+                    <span class="results-label">Showing results for</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <div class="row location-info-box">
+                                <div class="col-md-6">
+                                    <span class="location-info">{{ this.departureAirportObj.originalObject.city }} ( {{ this.departureAirportObj.originalObject.IATACode }} )</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <span class="location-info">{{ this.arrivalAirportObj.originalObject.city }} ( {{ this.arrivalAirportObj.originalObject.IATACode }} )</span>
+                                </div>
+                            </div>
+                            <div class="row date-info-box">
+                                <div class="col-md-5">
+                                    <span class="date-info-detail">{{ getDepartureDate() }}</span>
+                                </div>
+                                <div class="col-md-1">
+                                    <span class="date-info-detail"> --- </span>
+                                </div>
+                                <div class="col-md-5">
+                                    <span class="date-info-detail">{{ getArrivalDate() }}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn edit-btn"><i class="fa fa-edit"></i><span
+                                    class="edit-text" routerLink="/" >Edit</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-content">
+                <div class="container">
+                    <div id="carousel-box" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner row w-100 mx-auto" role="listbox">
+
+                            <div *ngFor="let airline of airlines; let i = index"
+                                class="carousel-item  col-sm-6 col-md-3 col-lg-3" [class.active]="i === 0">
+                                <img src="https://pics.avs.io/100/50/{{airline['iatacode']}}.png" class="img-fluid mx-auto d-block"
+                                    alt="{{airline['iatacode']}}">
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel-box" role="button" data-slide="prev">
+                            <i class="fa fa-arrow-circle-left arrow-airlines-icon-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel-box" role="button" data-slide="next">
+                            <i class="fa fa-arrow-circle-right arrow-airlines-icon-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card card-search-box" *ngFor="let flight of flightSearchResult | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize ; let i = index; trackBy: trackByIndex">
+                <div class="row">
+                    <div class="col-md-4 offset-md-7">
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="d-flex flex-row price-box">
+                                <div class="price-sub-box">
+                                    <span class="total-price-text">{{formatMoney(flight.totalPrice)}}</span>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row"><a class="btn btn-light custom-book-btn"
+                                    routerLink="/artboard" *ngIf="selectedFlight ? (formatMoney(selectedFlight.totalPrice) === formatMoney(flight.totalPrice) ) : false ">Book Now</a></div>
+                        </div>
+                        <!-- <a class="btn btn-light col-md-2 custom-book-btn" routerLink="/artboard">Book Now</a> -->
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6"><span
+                                class="book-location-name">{{this.departureAirportObj.originalObject.city}}</span><span
+                                class="book-location-name"> - to - </span><span
+                                class="book-location-name">{{this.arrivalAirportObj.originalObject.city}}</span></div>
+                        <div class="col-md-6 book-return-box" *ngIf="flightType == 'return' "><span
+                                class="book-location-name">{{this.arrivalAirportObj.originalObject.city}}</span><span class="book-location-name"> - to -
+                            </span><span class="book-location-name">{{this.departureAirportObj.originalObject.city}}</span></div>
+                    </div>
+
+
+                    <div class="row cards-row-box">
+                        <div class="col-md-6">
+                            <div class="card flight-card" *ngFor="let outboundFlight of flight.directions[0];let outboundIndex; trackBy : trackByIndex">
+                                <div class="card-body custom-card-body">
+                                    <div class="row item-bottom">
+                                        <div class="col-md-6"><img
+                                                src="https://pics.avs.io/100/50/{{outboundFlight.platingCarrier}}.png"
+                                                width="100px"></div>
+                                        <div class="col-md-6 align-right"><span class="flight-detail">Flight
+                                                Details</span></div>
+                                    </div>
+                                    <div class="row item-bottom">
+                                        <div class="col-md-6"><span
+                                                class="book-detail-info">{{ getAirportFullName(outboundFlight.from) }}</span>
+                                        </div>
+                                        <div class="col-md-6 align-right"><span
+                                                class="book-detail-info">{{ getAirportFullName(outboundFlight.to) }}</span></div>
+                                    </div>
+                                    <div class="row item-bottom">
+                                        <div class="col-md-6"><span
+                                                class="book-detail-info-1">{{formatToTime(outboundFlight.segments[0].departure)}}</span>
+                                        </div>
+                                        <div class="col-md-6 align-right"><span
+                                                class="book-detail-info-1">{{formatToTime(outboundFlight.segments[outboundFlight.segments.length - 1].arrival)}}</span>
+                                        </div>
+                                    </div>
+                                    <div class="row item-large-bottom">
+                                        <div class="col-md-6"><span
+                                                class="book-detail-info">{{formatToDay(outboundFlight.segments[0].departure)}}</span>
+                                        </div>
+                                        <div class="col-md-6 align-right"><span
+                                                class="book-detail-info">{{formatToDay(outboundFlight.segments[outboundFlight.segments.length - 1].arrival)}}</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6"><span
+                                                class="book-detail-info">{{getFlightType((outboundFlight.segments))}}</span>
+                                        </div>
+                                        <div class="col-md-6 align-right"><button
+                                                class="btn btn-outline-dark" (click)="selectOutBoundFlight(outboundFlight, outboundIndex)" [ngClass]="{  'selected-flight-btn' : (selectedOutboundFlightIndex === outboundIndex) && compareSegments(outboundFlight, selectedOutBoundFlight) }">Select</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" *ngIf="flightType === 'return'">
+                            <div class="card flight-card"  *ngFor="let inboundFlight of flight.directions[1];let inboundIndex = index; trackBy: trackByIndex" >
+                                <div class="card-body custom-card-body">
+                                    <div class="row item-bottom">
+                                        <div class="col-md-6"><img src="https://pics.avs.io/100/50/{{inboundFlight.platingCarrier}}.png"
+                                                width="100px"></div>
+                                        <div class="col-md-6 align-right"><span class="flight-detail">Flight
+                                                Details</span></div>
+                                    </div>
+                                    <div class="row item-bottom">
+                                        <div class="col-md-6"><span
+                                                class="book-detail-info">{{ getAirportFullName(inboundFlight.from) }}</span>
+                                        </div>
+                                        <div class="col-md-6 align-right"><span
+                                                class="book-detail-info">{{ getAirportFullName(inboundFlight.to) }}</span></div>
+                                    </div>
+                                    <div class="row item-bottom">
+                                        <div class="col-md-6"><span
+                                                class="book-detail-info-1">{{formatToTime(inboundFlight.segments[0].departure)}}</span>
+                                        </div>
+                                        <div class="col-md-6 align-right"><span
+                                                class="book-detail-info-1">{{formatToTime(inboundFlight.segments[inboundFlight.segments.length - 1].arrival)}}</span>
+                                        </div>
+                                    </div>
+                                    <div class="row item-large-bottom">
+                                        <div class="col-md-6"><span
+                                                class="book-detail-info">{{formatToDay(inboundFlight.segments[0].departure)}}</span>
+                                        </div>
+                                        <div class="col-md-6 align-right"><span
+                                                class="book-detail-info">{{formatToDay(inboundFlight.segments[inboundFlight.segments.length - 1].arrival)}}</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6"><span
+                                                class="book-detail-info">{{getFlightType((inboundFlight.segments))}}</span>
+                                        </div>
+                                        <div class="col-md-6 align-right"><button
+                                                class="btn btn-outline-dark" (click)="selectInBoundFlight(inboundFlight, inboundIndex, flight)" [ngClass]="{  'selected-flight-btn' : (selectedInboundFlightIndex === inboundIndex) && compareSegments(inboundFlight, selectedInBoundFlight) }">Select</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="noFlightFound col-md-12" *ngIf="!flightSearchResult">
+                <div>
+                    <img class="img-rounded" src="../../../../assets/imgs/No-Flight-Found-Eng.png"/>
+                </div>
+            </div>
+
+            <div class="pagination-custom">
+                <ngb-pagination *ngIf="flightSearchResult"
+                    [(page)]="page"
+                    [pageSize]="pageSize"
+                    [collectionSize]="flightSearchResult ? flightSearchResult.length : 0">
+                </ngb-pagination>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script>
+
+    $('#carousel-box').on('slide.bs.carousel', function (e) {
+        /*
+            CC 2.0 License Iatek LLC 2018 - Attribution required
+        */
+        var $e = $(e.relatedTarget);
+        var idx = $e.index();
+        var itemsPerSlide = 5;
+        var totalItems = $('.carousel-item').length;
+
+        if (idx >= totalItems - (itemsPerSlide - 1)) {
+            var it = itemsPerSlide - (totalItems - idx);
+            for (var i = 0; i < it; i++) {
+                // append slides to end
+                if (e.direction == "left") {
+                    $('.carousel-item').eq(i).appendTo('.carousel-inner');
+                }
+                else {
+                    $('.carousel-item').eq(0).appendTo('.carousel-inner');
+                }
+            }
+        }
+    });
+
+</script>

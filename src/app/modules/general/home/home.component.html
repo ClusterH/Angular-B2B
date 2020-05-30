@@ -1,0 +1,544 @@
+<header>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark custom-nav" style="background-color: #131C66;">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/params/images/logo/guzo_logo.png" width="60" height="60" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <mat-radio-group aria-label="Select an option">
+                <mat-radio-button value="1" checked>PNR</mat-radio-button>
+                <mat-radio-button value="2">Name</mat-radio-button>
+                <mat-radio-button value="3">Ticket Number</mat-radio-button>
+                </mat-radio-group>
+                <input class="form-control custom-input" type="text" placeholder="Search">
+            </li>          
+            </ul>
+        </div>
+        </div>      
+    </nav> 
+    <div class="container">
+        <div class="container-fluid row  container-fluid-custom">
+        <div class="label-box"><span class="label-text">Hello Gezachew Ayenew</span></div>
+        <div class="splider"></div>
+        <div><span class="label-text">Logout</span><i class="fa fa-power-off power-off-custom"></i></div>
+        </div>
+    </div>
+</header>
+
+<div class="container home-whole-box">
+    <div class="row justify-content-center">
+        <div class="col-md-11 col-lg-11 col-xl-11 home-box">
+
+            <mat-tab-group>
+                <mat-tab>
+                  <ng-template mat-tab-label>
+                    <mat-icon class="example-tab-icon">check_box</mat-icon>
+                    <span class="tab-label">One Way</span>
+                  </ng-template>
+
+                  <div class="one-way">
+                    <div class="row row-box ">
+                        <div class="col-md-6 col-lg-6 col-xl-6">
+                            <label for="fromlocation" class="form-custom-label">From</label>
+                            <div class="form-input-box">
+                                <div class="input-icon-box">
+                                    <img src="../assets/params/icons/plane_icon.png" class="flight-labels-img" width="20" height="20" alt="">
+                                </div>                                
+                                <ng2-completer textNoResults="No Airport/City Found, Please Try Again" [autoMatch]="true"  [pause]="500" type="text" [textSearching]="'Please wait...'" class="form-control input-box" id="fromlocation"  [(ngModel)]="departureStr" [datasource]="dataService" [minSearchLength]="2" placeholder="Type the name of a city or airport" (selected)="departureAirportSelected($event)"></ng2-completer>
+                            </div>                            
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-6">
+                            <label for="tolocation" class="form-custom-label">To</label>
+                            <div class="form-input-box">
+                                <div class="input-icon-box">
+                                    <img src="../assets/params/icons/plane_icon.png" class="flight-labels-img" width="20" height="20" alt="">
+                                </div>                                
+                                <ng2-completer textNoResults="No Airport/City Found, Please Try Again" [pause]="500" type="text" [textSearching]="'Please wait...'" class="form-control input-box" id="fromlocation" [(ngModel)]="arrivalStr" [datasource]="dataService" [minSearchLength]="2" placeholder="Type the name of a city or airport" (selected)="arrivalAirportSelected($event)"></ng2-completer>
+                            </div>
+                        </div>             
+                    </div>
+                    <div class="form-group row row-box ">
+                        <label for="staticEmail" class="col-md-2 col-lg-2 col-xl-2 col-form-label form-custom-label">Calendar type</label>
+                        <div class="col-md-3 col-lg-3 col-xl-3 form-custom-value">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Ethiopian Calendar</option>
+                                <option>Gregorian Calendar</option>
+                            </select>
+                        </div>
+                    </div>     
+                    <div class="row row-box">
+                        <div class="col-md-6 col-lg-6 col-xl-6">
+                            <div class="form-input-box">
+                                <mat-form-field id="fromlocation">
+                                    <input matInput [matDatepicker]="picker" placeholder="Departure Date" readonly="readonly" (click)="picker.open()"  [(ngModel)]="departureDate">
+                                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                    <mat-datepicker #picker></mat-datepicker>
+                                  </mat-form-field>
+                            </div>
+                        </div>     
+                    </div>
+
+                    <div class="form-group row row-box ">
+                        <label for="staticEmail" class="col-md-2 col-form-label form-custom-label">Passengers</label>
+                        <div class="col-md-2 form-custom-value">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="../assets/params/icons/man.png" class="man-icon" width="25" height="25" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <select class="form-control select-custom" id="exampleFormControlSelect1" [(ngModel)]="adultPassengers">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span class="age-text">(12+)</span>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="../assets/params/icons/man.png" class="child-icon" width="20" height="20" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <select class="form-control select-custom" id="exampleFormControlSelect1" [(ngModel)]="childPassengers">
+                                                <option>0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span class="age-text">(2-11)</span>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="../assets/params/icons/baby.png" class="child-icon" width="20" height="20" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <select class="form-control select-custom" id="exampleFormControlSelect1" [(ngModel)]="infantPassengers">
+                                                <option selected="selected">0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span class="age-text">(-2)</span>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="form-group row row-box ">
+                        <label for="staticEmail" class="col-md-1 col-lg-1 col-xl-1 col-form-label form-custom-label">Class</label>
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                            <select #oneWayCabin class="form-control select-box"  (change)="oneWayCabinOnChange(oneWayCabin.value)">
+                                <option *ngFor="let cabin of cabinClassAllowed" [value]="cabin">{{cabin}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <a type="button" class="btn btn-warning search-btn-custom" routerLink="/search" (click)="search('one-way')">Search</a>
+                    </div>
+                  </div>
+                </mat-tab>
+              
+                <mat-tab>
+                  <ng-template mat-tab-label>
+                    <mat-icon class="example-tab-icon">check_box</mat-icon>
+                    <span class="tab-label">Return</span>
+                  </ng-template>
+                  
+                  <div class="return">
+                    <div class="row row-box ">
+                        <div class="col-md-6 col-lg-6 col-xl-6">
+                            <label for="fromlocation" class="form-custom-label">From</label>
+                            <div class="form-input-box">
+                                <div class="input-icon-box">
+                                    <img src="../assets/params/icons/plane_icon.png" class="flight-labels-img" width="20" height="20" alt="">
+                                </div>
+                                <ng2-completer textNoResults="No Airport/City Found, Please Try Again" [autoMatch]="true"  [pause]="500" type="text" [textSearching]="'Please wait...'" class="form-control input-box" id="fromlocation"  [(ngModel)]="departureReturnStr" [datasource]="dataService" [minSearchLength]="2" placeholder="Type the name of a city or airport" (selected)="departureAirportSelected($event, true)"></ng2-completer>                                
+                            </div>                            
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-6">
+                            <label for="tolocation" class="form-custom-label">To</label>
+                            <div class="form-input-box">
+                                <div class="input-icon-box">
+                                    <img src="../assets/params/icons/plane_icon.png" class="flight-labels-img" width="20" height="20" alt="">
+                                </div>                                
+                                <ng2-completer textNoResults="No Airport/City Found, Please Try Again" [pause]="500" type="text" [textSearching]="'Please wait...'" class="form-control input-box" id="fromlocation" [(ngModel)]="arrivalReturnStr" [datasource]="dataService" [minSearchLength]="2" placeholder="Type the name of a city or airport" (selected)="arrivalAirportSelected($event, true)"></ng2-completer>
+                            </div>
+                        </div>             
+                    </div>
+                    <div class="form-group row row-box ">
+                        <label for="staticEmail" class="col-md-2 col-lg-2 col-xl-2 col-form-label form-custom-label">Calendar type</label>
+                        <div class="col-md-3 col-lg-3 col-xl-3 form-custom-value">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Ethiopian Calendar</option>
+                                <option>Gregorian Calendar</option>
+                            </select>
+                        </div>
+                    </div>     
+                    <div class="row row-box">
+                        <div class="col-md-6 col-lg-6 col-xl-6">
+                            <div class="form-input-box">
+                                <mat-form-field id="fromlocation_return">
+                                    <input matInput [matDatepicker]="picker_return_departure" placeholder="Departure Date" readonly="readonly" (click)="picker_return_departure.open()"  [(ngModel)]="departureDate">
+                                    <mat-datepicker-toggle matSuffix [for]="picker_return_departure"></mat-datepicker-toggle>
+                                    <mat-datepicker #picker_return_departure></mat-datepicker>
+                                  </mat-form-field>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-6">
+                            <div class="form-input-box">
+                                <mat-form-field id="to_location_return">
+                                    <input matInput [matDatepicker]="picker_return_arrival" placeholder="Return Date" readonly="readonly" (click)="picker_return_arrival.open()"  [(ngModel)]="returnDate">
+                                    <mat-datepicker-toggle matSuffix [for]="picker_return_arrival"></mat-datepicker-toggle>
+                                    <mat-datepicker #picker_return_arrival></mat-datepicker>
+                                  </mat-form-field>
+                            </div>
+                        </div>             
+                    </div>
+
+                    <div class="form-group row row-box ">
+                        <label for="staticEmail" class="col-md-2 col-form-label form-custom-label">Passengers</label>
+                        <div class="col-md-2 form-custom-value">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="../assets/params/icons/man.png" class="man-icon" width="25" height="25" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <select class="form-control select-custom" id="exampleFormControlSelect1" [(ngModel)]="adultPassengers">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span class="age-text">(12+)</span>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="../assets/params/icons/man.png" class="child-icon" width="20" height="20" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <select class="form-control select-custom" id="exampleFormControlSelect1" [(ngModel)]="childPassengers">
+                                                <option>0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span class="age-text">(2-11)</span>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="../assets/params/icons/baby.png" class="child-icon" width="20" height="20" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <select class="form-control select-custom" id="exampleFormControlSelect1" [(ngModel)]="infantPassengers">
+                                                <option selected="selected">0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span class="age-text">(-2)</span>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="form-group row row-box ">
+                        <label for="staticEmail" class="col-md-1 col-lg-1 col-xl-1 col-form-label form-custom-label">Class</label>
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                            <select #returnCabin class="form-control select-box"  (change)="returnCabinOnChange(returnCabin.value)">
+                                <option *ngFor="let cabin of cabinClassAllowed" [value]="cabin">{{cabin}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <a type="button" class="btn btn-warning search-btn-custom" routerLink='/search' (click)="search('return')">Search</a>
+                    </div>
+                  </div>
+
+                </mat-tab>
+              
+                <mat-tab>
+                  <ng-template mat-tab-label>
+                    <mat-icon class="example-tab-icon">check_box</mat-icon>
+                    <span class="tab-label">Multi City</span>
+                  </ng-template>
+              
+                  <div class="multi_city">
+                    
+                    <div *ngFor="let location of locations; let i = index" class="row row-box multi-location-box">
+                        <div class="col-md-4">
+                            <label for="fromlocation" class="form-custom-label">From</label>
+                            <div class="form-input-box">
+                                <div class="input-icon-box">
+                                    <img src="../assets/params/icons/plane_icon.png" class="flight-labels-img" width="20" height="20" alt="">
+                                </div>                                
+                                <ng2-completer textNoResults="No Airport/City Found, Please Try Again" [autoMatch]="true"  [pause]="500" type="text" [textSearching]="'Please wait...'" class="form-control input-box" id="fromlocation"  [(ngModel)]="multiCityStr[i].departure" [datasource]="dataService" [minSearchLength]="2" placeholder="Type the name of a city or airport" (selected)="departureAirportSelectedMulti($event,i)"></ng2-completer>                                
+                            </div>                            
+                        </div>
+                        <div class="col-md-4">
+                            <label for="tolocation" class="form-custom-label">To</label>
+                            <div class="form-input-box">
+                                <div class="input-icon-box">
+                                    <img src="../assets/params/icons/plane_icon.png" class="flight-labels-img" width="20" height="20" alt="">
+                                </div>                                
+                                <ng2-completer textNoResults="No Airport/City Found, Please Try Again" [autoMatch]="true"  [pause]="500" type="text" [textSearching]="'Please wait...'" class="form-control input-box" id="tolocation"  [(ngModel)]="multiCityStr[i].arrival" [datasource]="dataService" [minSearchLength]="2" placeholder="Type the name of a city or airport" (selected)="arrivalAirportSelectedMulti($event,i)"></ng2-completer>                                
+                            </div>
+                        </div>   
+                        <div class="col-md-4">
+                            <label for="fromlocation" class="form-custom-label">Departure</label>
+                            <div class="form-input-box d-flex flex-row">
+                                <div class="input-icon-box">
+                                    <img src="../assets/params/icons/calendar_icon.png" class="flight-labels-img" width="20" height="20" alt="">
+                                </div>                                
+                                <input type="date" class="form-control input-box input-box-calendar" id="fromlocation" placeholder="Select Departure Date">
+                                <button *ngIf="((i+1)==length) && (length!=1)" class="btn close-btn" (click)="removeLocation()"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>           
+                    </div>
+                    <div class="form-group row row-box ">
+                        <div class="col-md-4 offset-md-8 text-align-destination">
+                            <button class="btn add-destination" (click) ="addLocation()">Add Destination</button>
+                        </div>
+                    </div> 
+                    <div class="form-group row row-box ">
+                        <label for="staticEmail" class="col-md-2 col-form-label form-custom-label">Passengers</label>
+                        <div class="col-md-2 form-custom-value">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="../assets/params/icons/man.png" class="man-icon" width="25" height="25" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <select class="form-control select-custom" id="exampleFormControlSelect1">
+                                                <option selected="selected">1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span class="age-text">(12+)</span>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="../assets/params/icons/man.png" class="child-icon" width="20" height="20" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <select class="form-control select-custom" id="exampleFormControlSelect1">
+                                                <option selected="selected">0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span class="age-text">(2-11)</span>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>                            
+                        </div>
+                        <div class="col-md-2">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="../assets/params/icons/baby.png" class="child-icon" width="20" height="20" alt="">
+                                        </div>
+                                        <div class="col-md-9">
+                                            <select class="form-control select-custom" id="exampleFormControlSelect1">
+                                                <option selected="selected">0</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <span class="age-text">(-2)</span>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="form-group row row-box ">
+                        <label for="staticEmail" class="col-md-1 col-lg-1 col-xl-1 col-form-label form-custom-label">Class</label>
+                        <div class="col-md-2 col-lg-2 col-xl-2">
+                            <select class="form-control select-box" id="exampleFormControlSelect1">
+                                <option>Economy</option>
+                                <option>Bussiness</option>
+                                <option>First</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <a type="button" class="btn btn-warning search-btn-custom" routerLink="/search" (click)="search('multi-city')">Search</a>
+                    </div>
+                  </div>
+                </mat-tab>
+              </mat-tab-group>
+        </div>
+    </div>
+
+    <div class="row lastbook-table-box">        
+        <div class="col-md-12 col-lg-12 col-xl-12 booking-box">
+            <div class="row book-box-header">
+                <div class="col-md-2 last-book-box"><span class="last-book-label">Last Bookings</span></div>
+                <button class="btn col-md-2 offset-md-8 book-refresh"><i class="fa fa-undo refresh-icon"></i><span class="refresh-text">Refresh</span></button>
+            </div>
+            <table class="table table-borderless table-custom">
+                <thead>
+                  <tr>
+                    <th scope="col">PNR</th>
+                    <th scope="col">Issue Ticket Until</th>
+                    <th scope="col">Creation Date</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Booking Status</th>
+                    <th scope="col">No. of Tickets</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>X1234</td>
+                    <td>2020-04-19</td>
+                    <td>2020-04-19</td>
+                    <td>Abel Terfaye</td>
+                    <td>Issued</td>
+                    <td>1 Ticket</td>
+                    <td><button class="btn open-btn"><i class="fa fa-external-link-alt open-icon" aria-hidden="true"></i>Open</button></td>
+                  </tr>
+                  <tr>
+                    <td>X1234</td>
+                    <td>2020-04-19</td>
+                    <td>2020-04-19</td>
+                    <td>Abel Terfaye</td>
+                    <td>Issued</td>
+                    <td>1 Ticket</td>
+                    <td><button class="btn open-btn"><i class="fa fa-external-link-alt open-icon" aria-hidden="true"></i>Open</button></td>
+                  </tr>
+                  <tr>
+                    <td>X1234</td>
+                    <td>2020-04-19</td>
+                    <td>2020-04-19</td>
+                    <td>Abel Terfaye</td>
+                    <td>Issued</td>
+                    <td>1 Ticket</td>
+                    <td><button class="btn open-btn"><i class="fa fa-external-link-alt open-icon" aria-hidden="true"></i>Open</button></td>
+                  </tr>
+                </tbody>
+            </table>
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>        
+    </div>   
+    
+</div>

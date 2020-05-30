@@ -1,0 +1,161 @@
+<header>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark custom-nav" style="background-color: #131C66;">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/params/images/logo/guzo_logo.png" width="60" height="60" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <mat-radio-group aria-label="Select an option">
+                <mat-radio-button value="1" checked>PNR</mat-radio-button>
+                <mat-radio-button value="2">Name</mat-radio-button>
+                <mat-radio-button value="3">Ticket Number</mat-radio-button>
+                </mat-radio-group>
+                <input class="form-control custom-input" type="text" placeholder="Search">
+            </li>          
+            </ul>
+        </div>
+        </div>      
+    </nav> 
+    <div class="container">
+        <div class="container-fluid row  container-fluid-custom">
+        <div class="label-box"><span class="label-text">Hello Gezachew Ayenew</span></div>
+        <div class="splider"></div>
+        <div><span class="label-text">Logout</span><i class="fa fa-power-off power-off-custom"></i></div>
+        </div>
+    </div>
+</header>
+
+<div class="container whole-success-page">
+    <div class="card">
+        <div class="card-body">
+            <div *ngIf="!paid" class="row pnr-info-group">
+                <div class="col-md-6 offset-md-3">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <strong class="reservation-success-text">Reservation Created Successfully</strong>
+                        <button type="button" class="close reservation-close" data-dismiss="alert" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row pnr-info-group">
+                <div class="col-md-6 offset-md-3 content-center-align">
+                    <span class="pnr-label">PNR</span>
+                    <span class="pnr-value">3ADE9X</span>
+                </div>
+            </div>
+            <div *ngIf="!paid" class="pending">
+                <div class="row pnr-info-group">
+                    <div class="col-md-4 offset-md-4 content-center-align">
+                        <span class="payment-status-label">Payment Status</span>
+                    </div>
+                    <div class="col-md-6 offset-md-3">
+                        <div class="row pnr-payment-group-box">
+                            <div class="col-md-12 content-center-align">
+                                <button class="btn pnr-pending-btn">Pendding</button>
+                                <button class="btn pnr-refresh-btn"><i class="fa fa-undo refresh-icon"></i><span>Refresh</span></button>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+                <div class="row confirm-messege-box">
+                    <div class="col-md-8 offset-md-2 content-center-align">
+                        <span class="confirm-message-box-text">
+                            Please complete the payment via T-24 using GuzoGo menu to issue the e-Ticket
+                        </span>
+                    </div>
+                </div>
+                <div class="row e-ticket-box">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="row">
+                            <div class="col-md-12 content-center-align">
+                                <button class="btn e-ticket-btn" (click)="paidTicket()">Issue e- Ticket</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row last-button-confirm-group">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="row">
+                            <div class="col-md-4 content-center-align">
+                                <button class="btn ticket-button">Send SMS</button>
+                            </div>
+                            <div class="col-md-4 content-center-align">
+                                <button class="btn ticket-button">Send Email</button>
+                            </div>
+                            <div class="col-md-4 content-center-align">
+                                <button class="btn ticket-button">Send SMS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div *ngIf="paid" class="paid">
+                <div class="row pnr-info-group">
+                    <div class="col-md-4 offset-md-4 content-center-align">
+                        <span class="payment-status-label">Payment Status</span>
+                        <div class="col-md-6 offset-md-3">
+                            <div class="row pnr-payment-group-box">
+                                <div class="col-md-12 content-center-align">
+                                    <div class="pnr-success-btn"><i class="fa fa-check"></i><span>PAID</span></div>
+                                </div>                
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="row divider-box">
+                    <div class="col-md-12 divider"></div>
+                </div>
+                <div class="row ticket-box">
+                    <div class="col-md-12">
+                        <span class="ticket-label">Tickets</span>
+                    </div>
+                </div>
+                <div class="row ticket-box">
+                    <div class="col-md-12">
+                        <table id="print-section" class="table ticket-table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Passengers</th>
+                                <th scope="col">Ticket Number</th>
+                                <th scope="col"></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>Mikiyas Belayneh Maru</td>
+                                <td>121212121212212</td>
+                                <td><i class="fa fa-print"></i></td>
+                              </tr>
+                              <tr>
+                                <td>Mikiyas Belayneh Maru</td>
+                                <td>121212121212212</td>
+                                <td><i class="fa fa-print"></i></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                </div>               
+                <div class="row">
+                    <div class="col-md-3 offset-md-9">
+                        <a class="btn print-btn-box" routerLink="/preview"><span>Go Preview</span><i class="fa fa-arrow-right print-icon"></i></a>                                             
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="row">
+                            <div class="col-md-6"><input class="btn send-btn" type="button" value="Send SMS"></div>
+                            <div class="col-md-6"><input class="btn send-btn" type="button" value="Send Email"></div>
+                        </div>
+                    </div>                   
+                </div>
+            </div>           
+        </div>
+    </div>
+</div>

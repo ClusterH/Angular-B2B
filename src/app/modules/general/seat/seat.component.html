@@ -1,0 +1,194 @@
+<header>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark custom-nav" style="background-color: #131C66;">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/params/images/logo/guzo_logo.png" width="60" height="60" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <mat-radio-group aria-label="Select an option">
+                <mat-radio-button value="1" checked>PNR</mat-radio-button>
+                <mat-radio-button value="2">Name</mat-radio-button>
+                <mat-radio-button value="3">Ticket Number</mat-radio-button>
+                </mat-radio-group>
+                <input class="form-control custom-input" type="text" placeholder="Search">
+            </li>          
+            </ul>
+        </div>
+        </div>      
+    </nav> 
+    <div class="container">
+        <div class="container-fluid row  container-fluid-custom">
+        <div class="label-box"><span class="label-text">Hello Gezachew Ayenew</span></div>
+        <div class="splider"></div>
+        <div><span class="label-text">Logout</span><i class="fa fa-power-off power-off-custom"></i></div>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+               <div class="col-md-12">
+                   <span class="seat-label">Seat Selection</span>
+               </div> 
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="card legend-box">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <span class="legend-title">Legend</span>
+                                </div>
+                            </div>
+                            <div class="row legend-content-box">
+                                <div class="col-md-12 d-flex flex-row">
+                                    <img src="../assets/params/images/logo/chair_active.png" width="20" height="20" alt="">
+                                    <span class="legend-content">Available</span>
+                                </div>                                
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="../assets/params/images/logo/chair_active_leg.png" width="20" height="20" alt="">
+                                    <span class="legend-content">Extra Leg Room</span>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>                    
+                </div>
+
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="d-flex flex-row location-item"><span>ADD - BJR</span></div>
+                                <div class="d-flex flex-row location-item-light"><span>BJR - ADD</span></div>
+                            </div>
+                            <div class="card custom-border">                        
+                                <div class="card-body">                                   
+                                    <div class="d-flex flex-row justify-content-center">
+                                        <div class="d-flex flex-row location">A</div>
+                                        <div class="d-flex flex-row location">C</div>
+                                        <div class="d-flex flex-row location">G</div>
+                                        <div class="d-flex flex-row location">J</div>
+                                    </div>
+                                    <div *ngFor="let item of bseats; let i = index" class="d-flex flex-row justify-content-center">        
+                                        <div *ngFor="let seat of item.seats; let j = index;" class="business" >
+                                          <div *ngIf="seat.Type == 'Aisle'" class="asile d-flex flex-row" [mdePopoverTriggerFor]="popover" mdePopoverTriggerOn="false">{{item.rowNum}}</div>  
+                                          <div *ngIf="(seat.Type == 'Seat') && (seat.Availability == 'Available')" class="seat-chair d-flex flex-row" [mdePopoverTriggerFor]="popover" mdePopoverTriggerOn="click"><img src="../assets/params/images/logo/chair_active.png" width="40" height="40" alt=""></div>
+                                          <div *ngIf="(seat.Type == 'Seat') && (seat.Availability != 'Available')" class="seat-chair d-flex flex-row" [mdePopoverTriggerFor]="popover" mdePopoverTriggerOn="click"><img src="../assets/params/images/logo/blocked_chair.png" width="40" height="40" alt=""></div>                                          
+                                         {{increase()}}
+                                          <mde-popover #popover="mdePopover" [mdePopoverOverlapTrigger]="false" [mdePopoverCloseOnClick]="false">
+                                            <mat-card class="popover-card">
+                                            <mat-card-content>
+                                                <div class="row popover-title">
+                                                    <div class="col-md-12">
+                                                        <span class="popover-title-text">25 - C</span>
+                                                    </div>
+                                                </div> 
+                                                <table class="table table-borderless table-custom">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td *ngIf="empty"><div class="col-md-2"><i class="fa fa-expand empty-chair"></i></div></td>
+                                                            <td *ngIf="!empty"><div class="col-md-2"><img src="../assets/params/images/logo/selected_active_chair.png" width="40" height="40" alt=""></div></td>
+                                                            <td><span class="passenger-name">Mikiyas Belayneh Maru</span></td>
+                                                            <td *ngIf="empty"><input type="button" class="btn take-seat" value="Take Seat" (click)="takeSeat()"></td>
+                                                            <td *ngIf="!empty"><input type="button" class="btn change-seat" value="Change Seat" (click)="chageSeat()"></td>
+                                                        </tr>   
+                                                        <tr>
+                                                            <td *ngIf="empty1"><div class="col-md-2"><i class="fa fa-expand empty-chair"></i></div></td>
+                                                            <td *ngIf="!empty1"><div class="col-md-2"><img src="../assets/params/images/logo/selected_active_chair.png" width="40" height="40" alt=""></div></td>
+                                                            <td><span class="passenger-name">Mikiyas Belayneh Maru</span></td>
+                                                            <td *ngIf="empty1"><input type="button" class="btn take-seat" value="Take Seat" (click)="takeSeat1()"></td>
+                                                            <td *ngIf="!empty1"><input type="button" class="btn change-seat" value="Change Seat" (click)="chageSeat1()"></td>
+                                                        </tr>                                                      
+                                                    </tbody>
+                                                </table>                                                
+                                                <div class="row">
+                                                    <div class="col-md-12 close-btn">
+                                                        <input type="button" class="btn" value="close" (click)="closePopover()">
+                                                    </div>
+                                                </div>
+                                            </mat-card-content>                                                
+                                            </mat-card>
+                                        </mde-popover>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card table-card">                        
+                                <div class="card-body">
+                                    <table class="table table-borderless table-custom">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">Passengers</th>
+                                            <th scope="col">ADD - BJR</th>
+                                            <th scope="col">BJR - ADD</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>Mikiyas Belayneh Maru</td>
+                                            <td>
+                                                <div class="chair-cell-1">
+                                                    <span class="chair-cell-text">24-E</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="chair-cell-1">
+                                                    <span class="chair-cell-text">24-E</span>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>Mikiyas Belayneh Maru</td>
+                                            <td>
+                                                <div class="chair-cell">
+                                                    <span class="chair-cell-text">24-E</span>
+                                                </div>                                                
+                                            </td>
+                                            <td>
+                                                <div class="chair-cell">
+                                                    <span class="chair-cell-text">24-E</span>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>Mikiyas Belayneh Maru</td>
+                                            <td>
+                                                <div class="chair-cell">
+                                                    <span class="chair-cell-text">24-E</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="chair-cell">
+                                                    <span class="chair-cell-text">24-E</span>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+                                </div>                                
+                            </div>
+
+                            <div class="next-btn">
+                                <input type="button" class="btn next-btn" value="Next"/>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+</div>

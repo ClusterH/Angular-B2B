@@ -1,0 +1,594 @@
+@import '~@angular/cdk/overlay-prebuilt.css';
+body {
+    background: #F1F2F6;
+}
+.app {
+    max-width: 100% !important;
+    background: #F1F2F6;
+}
+.custom-nav {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+.mat-radio-outer-circle {
+    border-color: #F1C933 !important;
+}
+.mat-radio-button.mat-accent .mat-radio-inner-circle, .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+    background-color: #F1C933 !important;
+}
+.mat-radio-label-content {
+    color: #ffffff;
+    font-size: 10px;
+    margin-right: 10px;
+}
+.custom-input {
+    height: 30px;
+    font-size: 14px;
+}
+.home-whole-box {
+    padding-bottom: 20px;
+}
+.fixed-top {
+    position: relative !important;
+}
+.navbar-brand-custom {
+ margin-left: 20px;
+}
+/** ng-slider-custom*/
+.ng5-slider .ng5-slider-pointer {
+    cursor: pointer;
+    width: 22px !important;
+    height: 22px !important;
+    top: -10px !important;
+    background-color: #1E1C66 !important;
+    z-index: 3;
+    border-radius: 16px;
+}
+
+.ng5-slider .ng5-slider-pointer:after {
+    content: '';
+    top: 7px !important;
+    left: 7px !important;
+    border-radius: 4px;
+    background: #fff;
+}
+.ng5-slider .ng5-slider-pointer.ng5-slider-active:after {
+    background-color: #1E1C66 !important;
+}
+
+.ng5-slider .ng5-slider-selection {
+    z-index: 2;
+    background: #1E1C66 !important;
+    border-radius: 2px;
+}
+
+.ng5-slider-floor {
+    visibility: hidden !important;
+}
+.ng5-slider-ceil {
+    visibility: hidden !important;
+}
+.ng5-slider-bubble {
+    visibility: hidden !important;
+}
+.ng5-slider {
+    margin-top: 15px !important;
+}
+/***/
+
+/** custom checkbox background color*/
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+    background-color: #1E1C66 !important;
+}
+/**check box background color end*/
+
+.container-fluid-custom {
+    background: #F1F2F6;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    margin-left:0px !important
+}
+.splider {
+    width: 1px;
+    height: 20px;
+    border: 1px solid #707070;
+    margin-left: 10px;
+    margin-right: 10px;              ;
+}
+.power-off-custom {
+    margin-left: 10px;
+}
+.label-text {
+    color: #425486;
+    font-weight: bold;
+    font-size: 14px;
+}
+.home-box {
+    background: #ffffff;
+    margin-top: 20px;
+    box-shadow: 
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    padding:20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+
+}
+.card-search-box {
+    margin-top: 30px;
+}
+.cards-row-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*  search component*/
+.stopsLabel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.stops-label-text {
+    color: #425486;
+    font-size: 17px;
+}
+.stop-item {
+    margin-bottom: 7px;
+}
+.price-text {
+    color:#425486;
+    font-size: 12px;
+}
+.show-label-box {
+    margin-bottom: 5px;
+}
+.results-label {
+    color:#425486;
+    font-size: 18px;
+    font-weight: bold;
+}
+.location-info-box {
+    margin-bottom: 3px;
+}
+.location-info {
+    color: #425486;
+    font-size: 16px;
+}
+.date-info-detail {
+    color: #425486;
+    font-size: 15px;
+}
+.edit-btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #1E1C66;
+    color:#1E1C66;
+    font-size: 13px;
+}
+.edit-text {
+    margin-left: 5px;
+}
+
+/* Caraosel parts start*/
+/*
+    code by Iatek LLC 2018 - CC 2.0 License - Attribution required
+    code customized by Azmind.com
+*/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Show 4th slide on md if col-md-4*/
+    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -33.3333%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    /* Show 3rd slide on sm if col-sm-6*/
+    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -50%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 576px) {
+    .carousel-item {
+        margin-right: 0;
+    }
+    /* show 2 items */
+    .carousel-inner .active + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* farthest right hidden item must be also positioned for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* MD */
+@media (min-width: 768px) {
+    /* show 3rd of 3 item slide */
+    .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+/* LG */
+@media (min-width: 991px) {
+    /* show 4th item */
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    /* Show 5th slide on lg if col-lg-3 */
+    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    /* right or prev direction //t - previous slide direction last item animation fix */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+
+.book-location-name {
+    color: #1E1C66;
+    font-size: 18px;
+}
+.book-return-box {
+    text-align: end;
+}
+.flight-detail {
+    color: #1E1C66;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.align-right {
+    text-align: end;
+}
+
+.item-large-bottom {
+    margin-bottom: 10px;
+}
+.selected-btn {
+    border: 1px solid #1E1C66;
+    height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #1E1C66;
+    padding-top: 3px;
+    font-size: 14px;
+}
+.custom-card-body {
+    padding-bottom: 8px;
+}
+.book-detail-info {
+    color: #1E1C66;
+    font-size: 12px;    
+}
+
+.book-detail-info-1 {
+    color: #1E1C66;
+    font-size: 12px;    
+}
+.right-texts {
+    float: right;
+}
+.justify-text-center {
+    text-align: center;
+}
+.selected-fligh-card {
+    margin-bottom: 15px;
+}
+.fare-rule-box {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.fare-rule-box-text {
+    text-decoration: underline;    
+    font-size: 20px;
+    color: #1E1C66;
+}
+
+.bottom-line {
+    border-bottom: 1px solid #DFDFE1;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card-custom {
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-left: 1px solid rgba(0,0,0,.125) !important;
+    border-right: 1px solid rgba(0,0,0,.125) !important;
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    border-top: none;
+}
+.input-size {
+    width: 350px;
+}
+.passenger-detail-group-box {
+    margin-bottom: 14px;
+}
+.adult-label {
+    font-size: 18px;
+    color: #425486;
+
+}
+.form-label {
+    font-size: 13px;
+    color: #425486;
+}
+.seat-selection-box {
+    margin-top: 18px;
+}
+.choose-seat {
+    background: #1E1C66;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: #ffffff;
+}
+.change-seat {
+    border:1px solid #1E1C66;
+    border-radius: 13px;
+    padding-left: 33px;
+    padding-right: 33px;
+    font-size: 13px;
+    color: #1E1C66;
+}
+.custom-table {
+    margin-bottom: 0px;
+}
+.seat-table-header {
+    border-bottom: 1px solid #707070;
+}
+.seat-table-header th {
+    font-size: 14px;
+}
+.seat-table-body td {
+    font-size: 14px;
+    vertical-align: middle;
+}
+.seat-table-body td button{
+    font-size: 14px;
+}
+.condition-box {
+    margin-top: 18px;
+}
+.accept-card {
+    margin-left: 35px;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+.accept-title-box {
+    margin-bottom: 30px;
+}
+.accept-content {
+    font-size: 17px;
+    color: #425486;
+}
+.accept-title {
+  color: #425486;
+  font-size: 18px;  
+  font-weight: bold;
+}
+.book-button {
+    background: #1E1C66;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #ffffff;
+}
+.book-button-box {
+    margin-top: 20px;
+}
+.location-name-row {
+    height: 24px !important;
+}
+.label-box {
+    display: table;
+}
+.flight-labels {
+    display: table-cell;
+    vertical-align: middle;
+    color: #425486;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+.fligh-location-name {
+    color: #425486;
+    font-size: 16px;
+}
+.flight-times-1 {
+    color: #425486;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.flight-times-2 {
+    color: #425486;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.flight-dates-1 {
+    color: #425486;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.flight-dates-2 {
+    color: #425486;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.direct-box {
+    margin-top: 20px;
+}
+.direct-text {
+    color: #425486;
+    font-size: 14px;
+}
+.whole-artboard-page {
+    padding-bottom: 40px;
+}
+.content-center-align {
+    text-align: center;
+}
+.pnr-info-group {
+    margin-top: 20px;
+}
+.pnr-label{
+    font-size: 23px;
+    font-weight: bold;
+    margin-right: 15px;
+    color: #1E1C66;
+}
+.pnr-value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1E1C66;
+}
+.payment-status-label {
+    font-size: 23px;
+    font-weight: bold;
+    margin-right: 15px;
+    color: #1E1C66;
+}
+.pnr-payment-group-box {
+    margin-top: 10px;
+}
+.pnr-pending-btn {
+    background: #0093FF;
+    padding-left: 25px;
+    padding-right: 30px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.pnr-refresh-btn {
+    background: #ffffff;
+    padding-left: 25px;
+    padding-right: 30px;
+    border-radius: 30px;
+    color: #1E1C66;
+    font-weight: bold;
+}
+.confirm-messege-box {
+    margin-top: 45px;
+}
+.confirm-message-box-text {
+    font-size: 23px;
+    font-weight: bold;
+    color: #1E1C66;
+}
+.e-ticket-box {
+    margin-top: 45px;
+}
+.e-ticket-btn {
+    background: #B1B0CA;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.last-button-confirm-group {
+    margin-top: 100px;
+}
+.ticket-button {
+    background: #B1B0CA;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+}
+.reservation-success-text {
+    color: #11A637;
+}
+.reservation-close {
+    color: #11A637 !important;
+}
+.whole-success-page {
+    padding-bottom: 100px;
+}

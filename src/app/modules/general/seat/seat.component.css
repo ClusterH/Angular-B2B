@@ -1,0 +1,151 @@
+.seat-chair {
+    margin:13px;
+}
+.asile {
+    margin-top:20px;
+}
+.location {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #1E1C66;
+    font-weight: bold;
+}
+.seat-label {
+    color: #1E1C66;
+    font-size: 20px;
+}
+.legend-box-group {
+    background: #F4F4F4;
+}
+.legend-box {
+    margin-top: 80px;  
+    background-color: #F4F4F4;  
+}
+.legend-title {
+    color: #686776;
+    font-size: 15px;
+    font-weight: bold;
+}
+.legend-content {
+    color: #686776;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.legend-content-box {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+thead th {
+    color: #131C66;
+    font-size: 14px;
+}
+tbody td {
+    color: #131C66;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.chair-cell-parent {
+    width: 30px;
+    height: 30px !important;
+}
+.chair-cell {    
+    background-image: url("src/assets/params/images/logo/selected_active_chair.png");
+    background-size: cover;
+    width: 30px;
+    height:30px;
+    padding-top: 3px;
+    padding-left: 2px;
+}
+.chair-cell-1 {    
+    background-image: url("src/assets/params/images/logo/chair_active.png");
+    background-size: cover;
+    width: 30px;
+    height:30px;
+    padding-top: 3px;
+    padding-left: 2px;
+   
+}
+.chair-cell-text {
+    font-size: 12px;
+    color: #ffffff;
+}
+.custom-border {
+    border-left: 1px solid rgba(0,0,0,.125);
+    border-right: 1px solid rgba(0,0,0,.125);
+    border-top: none;
+    border-bottom: none;
+}
+.location-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 3px solid #F1C933;
+}
+.location-item-light {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.location-item span {
+    font-weight: bold;
+    color: #131C66;
+    font-size: 20px;
+}
+.location-item-light span {
+    font-weight: bold;
+    color: #999DBD;
+    font-size: 20px;
+}
+.popover-title {
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.popover-title-text {
+    color: #1E1C66;
+    font-weight: bold;
+    font-size: 18px;
+}
+.passenger-name {
+    color: #1E1C66;
+    font-weight: bold;
+}
+.take-seat {
+    background: #F1C933;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: #1E1C66;
+}
+.change-seat {
+    border:1px solid #1E1C66;
+    border-radius: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    color: #1E1C66;
+}
+.close-btn {
+    text-align: end;    
+}
+.close-btn input {
+    font-size: 20px;
+    color: #1E1C66;
+    font-weight: bold;
+}
+.empty-chair {
+    font-size: 25px;
+    margin-left: 5px;
+}
+.next-btn {
+    background: #F1C933;
+    color: #131C66;
+    font-weight: bold;
+    float: right;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+.table-card {
+    margin-bottom: 10px;
+}

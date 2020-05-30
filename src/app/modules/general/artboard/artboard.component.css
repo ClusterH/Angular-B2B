@@ -1,0 +1,15 @@
+.divider-line {
+    height: 1px;
+    width: 93%;
+    border-bottom: 1px solid #425486;
+}
+.divider {
+    height:8px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.close-btn {
+    font-size: 23px;
+    margin-top: -12px;
+    margin-left: 10px;
+}

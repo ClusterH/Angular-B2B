@@ -1,0 +1,4173 @@
+[
+    {
+      "carrier_code": "*O",
+      "carrier_name1": "Oneworld",
+      "carrier_name2": "Oneworld"
+    },
+    {
+      "carrier_code": "*S",
+      "carrier_name1": "SkyTeam Alliance",
+      "carrier_name2": "SkyTeam"
+    },
+    {
+      "carrier_code": "0B",
+      "carrier_name1": "Blue Air",
+      "carrier_name2": "Blue Air"
+    },
+    {
+      "carrier_code": "0J",
+      "carrier_name1": "Premium Jet AG",
+      "carrier_name2": "Premium Jet AG"
+    },
+    {
+      "carrier_code": "0Y",
+      "carrier_name1": "FlyYeti",
+      "carrier_name2": "FlyYeti"
+    },
+    {
+      "carrier_code": "1M",
+      "carrier_name1": "JSC Transport Auto Info Systems",
+      "carrier_name2": "Auto Info System"
+    },
+    {
+      "carrier_code": "1X",
+      "carrier_name1": "Branson Air Express",
+      "carrier_name2": "Branson Air"
+    },
+    {
+      "carrier_code": "2A",
+      "carrier_name1": "Deutsche Bahn",
+      "carrier_name2": "Deutsche Bahn"
+    },
+    {
+      "carrier_code": "2B",
+      "carrier_name1": "Albawings",
+      "carrier_name2": "Albawings"
+    },
+    {
+      "carrier_code": "2C",
+      "carrier_name1": "SNCF",
+      "carrier_name2": "SNCF"
+    },
+    {
+      "carrier_code": "2D",
+      "carrier_name1": "Eastern Airlines, LLC",
+      "carrier_name2": "Eastern Airlines"
+    },
+    {
+      "carrier_code": "2E",
+      "carrier_name1": "Smokey Bay Air",
+      "carrier_name2": "Smokey Bay Air"
+    },
+    {
+      "carrier_code": "2F",
+      "carrier_name1": "Fair Aviation (Pty) Ltd",
+      "carrier_name2": "Fair Aviation"
+    },
+    {
+      "carrier_code": "2G",
+      "carrier_name1": "Angara Airlines",
+      "carrier_name2": "Angara Airlines"
+    },
+    {
+      "carrier_code": "2I",
+      "carrier_name1": "Star Peru",
+      "carrier_name2": "Star Peru"
+    },
+    {
+      "carrier_code": "2J",
+      "carrier_name1": "Air Burkina",
+      "carrier_name2": "Air Burkina"
+    },
+    {
+      "carrier_code": "2K",
+      "carrier_name1": "Avianca Ecuador",
+      "carrier_name2": "Avianca Ecuador"
+    },
+    {
+      "carrier_code": "2L",
+      "carrier_name1": "Helvetic Airways",
+      "carrier_name2": "Helvetic Airways"
+    },
+    {
+      "carrier_code": "2M",
+      "carrier_name1": "Maya Island Air",
+      "carrier_name2": "Maya Island Air"
+    },
+    {
+      "carrier_code": "2O",
+      "carrier_name1": "Island Air Service",
+      "carrier_name2": "Island Air"
+    },
+    {
+      "carrier_code": "2P",
+      "carrier_name1": "PAL Express",
+      "carrier_name2": "PAL Express"
+    },
+    {
+      "carrier_code": "2R",
+      "carrier_name1": "Via Rail Canada",
+      "carrier_name2": "Via Rail"
+    },
+    {
+      "carrier_code": "2T",
+      "carrier_name1": "Turbo Megha Airways",
+      "carrier_name2": "Turbo Megha Air"
+    },
+    {
+      "carrier_code": "2U",
+      "carrier_name1": "Sun d'Or International Airlines",
+      "carrier_name2": "Sun d'Or Airline"
+    },
+    {
+      "carrier_code": "2V",
+      "carrier_name1": "Amtrak",
+      "carrier_name2": "Amtrak"
+    },
+    {
+      "carrier_code": "2X",
+      "carrier_name1": "Xerox",
+      "carrier_name2": "Xerox"
+    },
+    {
+      "carrier_code": "2Y",
+      "carrier_name1": " Air Andaman",
+      "carrier_name2": " Air Andaman"
+    },
+    {
+      "carrier_code": "2Z",
+      "carrier_name1": "Passaredo Transportes Aeros S A",
+      "carrier_name2": "Passaredo Aeros"
+    },
+    {
+      "carrier_code": "3A",
+      "carrier_name1": "Chu Kong Passenger Transport Co",
+      "carrier_name2": "Chu Kong Trans"
+    },
+    {
+      "carrier_code": "3B",
+      "carrier_name1": "Binter Cabo Verde Sociedade Unipess",
+      "carrier_name2": "Binter Cabo Ver"
+    },
+    {
+      "carrier_code": "3C",
+      "carrier_name1": "Air Chathams Limited",
+      "carrier_name2": "Air Chathams"
+    },
+    {
+      "carrier_code": "3E",
+      "carrier_name1": "Air Choice One",
+      "carrier_name2": "Air Choice"
+    },
+    {
+      "carrier_code": "3F",
+      "carrier_name1": "Pacific Airways Inc.",
+      "carrier_name2": "Pacific Airways"
+    },
+    {
+      "carrier_code": "3H",
+      "carrier_name1": "Air Inuit Ltd.",
+      "carrier_name2": "Air Inuit"
+    },
+    {
+      "carrier_code": "3I",
+      "carrier_name1": "Pison Airways",
+      "carrier_name2": "Pison Airways"
+    },
+    {
+      "carrier_code": "3K",
+      "carrier_name1": "Jetstar Asia Airways",
+      "carrier_name2": "Jetstar Asia Air"
+    },
+    {
+      "carrier_code": "3M",
+      "carrier_name1": "Silver Airways LLC",
+      "carrier_name2": "Silver Airways"
+    },
+    {
+      "carrier_code": "3N",
+      "carrier_name1": "Air Urga",
+      "carrier_name2": "Air Urga"
+    },
+    {
+      "carrier_code": "3O",
+      "carrier_name1": "Air Arabia Maroc",
+      "carrier_name2": "Air Arabia"
+    },
+    {
+      "carrier_code": "3Q",
+      "carrier_name1": "KC International Airlines",
+      "carrier_name2": "KC Intl Airlines"
+    },
+    {
+      "carrier_code": "3S",
+      "carrier_name1": "Air Antilles Express",
+      "carrier_name2": "Air Antilles"
+    },
+    {
+      "carrier_code": "3U",
+      "carrier_name1": "Sichuan Airlines Co Ltd",
+      "carrier_name2": "Sichuan Airlines"
+    },
+    {
+      "carrier_code": "3W",
+      "carrier_name1": "Malawian Airlines",
+      "carrier_name2": "Malawian Air"
+    },
+    {
+      "carrier_code": "3Y",
+      "carrier_name1": "Uniways",
+      "carrier_name2": "Uniways"
+    },
+    {
+      "carrier_code": "4A",
+      "carrier_name1": "Aerodynamics, Inc",
+      "carrier_name2": "Aerodynamics"
+    },
+    {
+      "carrier_code": "4B",
+      "carrier_name1": "Boutique Air Inc",
+      "carrier_name2": "Boutique Air"
+    },
+    {
+      "carrier_code": "4C",
+      "carrier_name1": "LAN Colombia",
+      "carrier_name2": "LAN Colombia"
+    },
+    {
+      "carrier_code": "4D",
+      "carrier_name1": "Air Sinai",
+      "carrier_name2": "Air Sinai"
+    },
+    {
+      "carrier_code": "4E",
+      "carrier_name1": "Tanana Air Service",
+      "carrier_name2": "Tanana Air"
+    },
+    {
+      "carrier_code": "4F",
+      "carrier_name1": "Freedom Airline Express",
+      "carrier_name2": "Freedon Airline"
+    },
+    {
+      "carrier_code": "4G",
+      "carrier_name1": "Gazpromavia Aviation Company Ltd",
+      "carrier_name2": "Gazpromavia"
+    },
+    {
+      "carrier_code": "4K",
+      "carrier_name1": "Kenn Borek Air Ltd",
+      "carrier_name2": "Kenn Borek Air"
+    },
+    {
+      "carrier_code": "4M",
+      "carrier_name1": "LATAM Airlines Argentina",
+      "carrier_name2": "LATAM Argentina"
+    },
+    {
+      "carrier_code": "4N",
+      "carrier_name1": "Air North Charter and Training Ltd",
+      "carrier_name2": "Air North"
+    },
+    {
+      "carrier_code": "4O",
+      "carrier_name1": "Interjet",
+      "carrier_name2": "Interjet"
+    },
+    {
+      "carrier_code": "4P",
+      "carrier_name1": "Public Charters",
+      "carrier_name2": "Regional Sky"
+    },
+    {
+      "carrier_code": "4Q",
+      "carrier_name1": "Safi Airways",
+      "carrier_name2": "Safi Airways"
+    },
+    {
+      "carrier_code": "4R",
+      "carrier_name1": "Renfe Viajeros",
+      "carrier_name2": "Renfe Viajeros"
+    },
+    {
+      "carrier_code": "4T",
+      "carrier_name1": "Transwest Air Ltd",
+      "carrier_name2": "Transwest Air"
+    },
+    {
+      "carrier_code": "4U",
+      "carrier_name1": "Germanwings",
+      "carrier_name2": "Germanwings"
+    },
+    {
+      "carrier_code": "4W",
+      "carrier_name1": "Warbelows Air Ventures",
+      "carrier_name2": "Warbelows Air"
+    },
+    {
+      "carrier_code": "4Z",
+      "carrier_name1": "South African Airlink",
+      "carrier_name2": "South African Ai"
+    },
+    {
+      "carrier_code": "5B",
+      "carrier_name1": "Bassaka Air",
+      "carrier_name2": "Bassaka Air"
+    },
+    {
+      "carrier_code": "5C",
+      "carrier_name1": "Nature Air",
+      "carrier_name2": "Nature Air"
+    },
+    {
+      "carrier_code": "5D",
+      "carrier_name1": "Aeromexico Connect",
+      "carrier_name2": "Aeromexico Cnct"
+    },
+    {
+      "carrier_code": "5F",
+      "carrier_name1": "Fly One",
+      "carrier_name2": "Fly One"
+    },
+    {
+      "carrier_code": "5H",
+      "carrier_name1": "Five Forty Aviation Limited",
+      "carrier_name2": "Five Forty"
+    },
+    {
+      "carrier_code": "5K",
+      "carrier_name1": "Hi Fly Transportes Aereos S.A",
+      "carrier_name2": "Hi Fly"
+    },
+    {
+      "carrier_code": "5N",
+      "carrier_name1": "JSC Nordavia Regional Airline",
+      "carrier_name2": "Nordavia Airline"
+    },
+    {
+      "carrier_code": "5O",
+      "carrier_name1": "ASL Airlines France",
+      "carrier_name2": "ASL Airlines"
+    },
+    {
+      "carrier_code": "5R",
+      "carrier_name1": "Rutaca",
+      "carrier_name2": "Rutaca"
+    },
+    {
+      "carrier_code": "5S",
+      "carrier_name1": "Servicios Aereos Profesionales",
+      "carrier_name2": "Profesionales"
+    },
+    {
+      "carrier_code": "5T",
+      "carrier_name1": "Canadian North",
+      "carrier_name2": "Canadian North"
+    },
+    {
+      "carrier_code": "5U",
+      "carrier_name1": "Transportes Aereo Guatemaltecos",
+      "carrier_name2": "TAG Airlines"
+    },
+    {
+      "carrier_code": "5V",
+      "carrier_name1": "Lviv Airlines",
+      "carrier_name2": "Lviv Airlines"
+    },
+    {
+      "carrier_code": "5W",
+      "carrier_name1": "Speed Alliance",
+      "carrier_name2": "Speed Alliance"
+    },
+    {
+      "carrier_code": "5g",
+      "carrier_name1": "Aerocuahonte SA de CV",
+      "carrier_name2": "Aerocuahonte"
+    },
+    {
+      "carrier_code": "6A",
+      "carrier_name1": "Armenia Airways Aircompany CJSC",
+      "carrier_name2": "Armenia Airways"
+    },
+    {
+      "carrier_code": "6B",
+      "carrier_name1": "TUIfly Nordic AB",
+      "carrier_name2": "TUIfly Nordic AB"
+    },
+    {
+      "carrier_code": "6D",
+      "carrier_name1": "Travel Service Slovakia",
+      "carrier_name2": "Travel Service"
+    },
+    {
+      "carrier_code": "6E",
+      "carrier_name1": "IndiGo",
+      "carrier_name2": "IndiGo"
+    },
+    {
+      "carrier_code": "6H",
+      "carrier_name1": "Israir Airlines and Tourism Ltd",
+      "carrier_name2": "Israir"
+    },
+    {
+      "carrier_code": "6I",
+      "carrier_name1": "Air Alsie",
+      "carrier_name2": "Air Alsie"
+    },
+    {
+      "carrier_code": "6J",
+      "carrier_name1": "Solaseed",
+      "carrier_name2": "Solaseed"
+    },
+    {
+      "carrier_code": "6K",
+      "carrier_name1": "Kyrgyz Trans Avia Ltd Airline",
+      "carrier_name2": "Kyrgyz TransAvia"
+    },
+    {
+      "carrier_code": "6L",
+      "carrier_name1": "Aklak Inc",
+      "carrier_name2": "Aklak Inc"
+    },
+    {
+      "carrier_code": "6N",
+      "carrier_name1": "Niger Airlines",
+      "carrier_name2": "Niger Airlines"
+    },
+    {
+      "carrier_code": "6Q",
+      "carrier_name1": "Cham Wings Airlines",
+      "carrier_name2": "Cham Wings"
+    },
+    {
+      "carrier_code": "6R",
+      "carrier_name1": "ALROSA Air Company",
+      "carrier_name2": "ALROSA Air Co."
+    },
+    {
+      "carrier_code": "6S",
+      "carrier_name1": "Saudi Gulf Airlines",
+      "carrier_name2": "Saudi Gulf Air"
+    },
+    {
+      "carrier_code": "6T",
+      "carrier_name1": "Air Mandalay Ltd",
+      "carrier_name2": "Air Mandalay"
+    },
+    {
+      "carrier_code": "6Y",
+      "carrier_name1": "SmartLynx Airlines",
+      "carrier_name2": "SmartLynx Air"
+    },
+    {
+      "carrier_code": "6Z",
+      "carrier_name1": "Euro-Asia Air",
+      "carrier_name2": "Euro-Asia Air"
+    },
+    {
+      "carrier_code": "7A",
+      "carrier_name1": "Air Next",
+      "carrier_name2": "Air Next"
+    },
+    {
+      "carrier_code": "7B",
+      "carrier_name1": "Fly Bluecrane (PTY) Ltd",
+      "carrier_name2": "Fly Bluecrane"
+    },
+    {
+      "carrier_code": "7C",
+      "carrier_name1": "JeJu Air",
+      "carrier_name2": "JeJu Air"
+    },
+    {
+      "carrier_code": "7D",
+      "carrier_name1": "Madagasikara Airways",
+      "carrier_name2": "Madagasikara Air"
+    },
+    {
+      "carrier_code": "7E",
+      "carrier_name1": "Sylt Air GmbH",
+      "carrier_name2": "Sylt Air"
+    },
+    {
+      "carrier_code": "7F",
+      "carrier_name1": "First Air",
+      "carrier_name2": "First Air"
+    },
+    {
+      "carrier_code": "7H",
+      "carrier_name1": "Corvus Airlines",
+      "carrier_name2": "Corvus Airlines"
+    },
+    {
+      "carrier_code": "7I",
+      "carrier_name1": "Insel Air International",
+      "carrier_name2": "Insel Air"
+    },
+    {
+      "carrier_code": "7J",
+      "carrier_name1": "Tajik Air",
+      "carrier_name2": "Tajik Air"
+    },
+    {
+      "carrier_code": "7L",
+      "carrier_name1": "Silk Way West Airlines",
+      "carrier_name2": "Silk Way West"
+    },
+    {
+      "carrier_code": "7P",
+      "carrier_name1": "Air Panama",
+      "carrier_name2": "Air Panama"
+    },
+    {
+      "carrier_code": "7Q",
+      "carrier_name1": "Elite Airways",
+      "carrier_name2": "Elite Airways"
+    },
+    {
+      "carrier_code": "7R",
+      "carrier_name1": "JSC RusLine",
+      "carrier_name2": "RusLine"
+    },
+    {
+      "carrier_code": "7S",
+      "carrier_name1": "Artic Transportation Services",
+      "carrier_name2": "Artic"
+    },
+    {
+      "carrier_code": "7T",
+      "carrier_name1": "Trenitalia S.p.A.",
+      "carrier_name2": "Trenitalia"
+    },
+    {
+      "carrier_code": "7V",
+      "carrier_name1": "Federal Airlines",
+      "carrier_name2": "Federal Airlines"
+    },
+    {
+      "carrier_code": "7W",
+      "carrier_name1": "Wind Rose Aviation Company",
+      "carrier_name2": "Wind Rose"
+    },
+    {
+      "carrier_code": "7Y",
+      "carrier_name1": "Mann Yadanarpon Airlines",
+      "carrier_name2": "Mann Airlines"
+    },
+    {
+      "carrier_code": "8A",
+      "carrier_name1": "Atlas Blue",
+      "carrier_name2": "Atlas Blue"
+    },
+    {
+      "carrier_code": "8B",
+      "carrier_name1": "TransNusa",
+      "carrier_name2": "TransNusa"
+    },
+    {
+      "carrier_code": "8C",
+      "carrier_name1": "Cotai Ferry Company",
+      "carrier_name2": "Cotai Ferry Co"
+    },
+    {
+      "carrier_code": "8E",
+      "carrier_name1": "Bering Air Inc.",
+      "carrier_name2": "Bering Air"
+    },
+    {
+      "carrier_code": "8F",
+      "carrier_name1": "STP Airways",
+      "carrier_name2": "STP Airways"
+    },
+    {
+      "carrier_code": "8H",
+      "carrier_name1": "Balkan Holidays Air",
+      "carrier_name2": "Balkan Holidays"
+    },
+    {
+      "carrier_code": "8J",
+      "carrier_name1": "Ecojet",
+      "carrier_name2": "Ecojet"
+    },
+    {
+      "carrier_code": "8L",
+      "carrier_name1": "Lucky Air",
+      "carrier_name2": "Lucky Air"
+    },
+    {
+      "carrier_code": "8M",
+      "carrier_name1": "Myanmar Airways Intl Co Ltd",
+      "carrier_name2": "Myanmar Airways"
+    },
+    {
+      "carrier_code": "8N",
+      "carrier_name1": "Regional Air Services",
+      "carrier_name2": "Regional Air"
+    },
+    {
+      "carrier_code": "8P",
+      "carrier_name1": "Pacific Coastal Airlines",
+      "carrier_name2": "Pacific Coastal"
+    },
+    {
+      "carrier_code": "8Q",
+      "carrier_name1": "Onur Air Tasimacilik A.S.",
+      "carrier_name2": "Onur Air"
+    },
+    {
+      "carrier_code": "8S",
+      "carrier_name1": "Turbojet",
+      "carrier_name2": "Turbojet"
+    },
+    {
+      "carrier_code": "8T",
+      "carrier_name1": "Air Tindi Ltd.",
+      "carrier_name2": "Air Tindi"
+    },
+    {
+      "carrier_code": "8U",
+      "carrier_name1": "Afriqiyah Airways",
+      "carrier_name2": "Afriqiyah"
+    },
+    {
+      "carrier_code": "8V",
+      "carrier_name1": "Wright Air Service Inc.",
+      "carrier_name2": "Wright Air Svc"
+    },
+    {
+      "carrier_code": "8W",
+      "carrier_name1": "Fly Always N.V.",
+      "carrier_name2": "Fly Always N.V."
+    },
+    {
+      "carrier_code": "8X",
+      "carrier_name1": "United (Passive)",
+      "carrier_name2": "United (Passive)"
+    },
+    {
+      "carrier_code": "8Z",
+      "carrier_name1": "Congo Airways",
+      "carrier_name2": "Congo Airways"
+    },
+    {
+      "carrier_code": "9B",
+      "carrier_name1": "AccesRail",
+      "carrier_name2": "AccesRail"
+    },
+    {
+      "carrier_code": "9C",
+      "carrier_name1": "Spring Airlines Limited Corportion",
+      "carrier_name2": "Spring Airlines"
+    },
+    {
+      "carrier_code": "9D",
+      "carrier_name1": "Toumai Air Tchad",
+      "carrier_name2": "Toumai Air Tchad"
+    },
+    {
+      "carrier_code": "9E",
+      "carrier_name1": "Endeavor Air",
+      "carrier_name2": "Endeavor Air"
+    },
+    {
+      "carrier_code": "9F",
+      "carrier_name1": "Eurostar",
+      "carrier_name2": "Eurostar"
+    },
+    {
+      "carrier_code": "9H",
+      "carrier_name1": "Changan Airlines",
+      "carrier_name2": "Changan Airlines"
+    },
+    {
+      "carrier_code": "9I",
+      "carrier_name1": "Alliance Air",
+      "carrier_name2": "Alliance Air"
+    },
+    {
+      "carrier_code": "9J",
+      "carrier_name1": "Dana Airlines Limited",
+      "carrier_name2": "Dana Airlines"
+    },
+    {
+      "carrier_code": "9K",
+      "carrier_name1": "Cape Air",
+      "carrier_name2": "Cape Air"
+    },
+    {
+      "carrier_code": "9M",
+      "carrier_name1": "Central Mountain Air Ltd",
+      "carrier_name2": "Central Mtn Air"
+    },
+    {
+      "carrier_code": "9N",
+      "carrier_name1": "Tropic Air",
+      "carrier_name2": "Tropic Air"
+    },
+    {
+      "carrier_code": "9P",
+      "carrier_name1": "Petra Airline",
+      "carrier_name2": "Petra Airline"
+    },
+    {
+      "carrier_code": "9Q",
+      "carrier_name1": "Caicos Express Airways",
+      "carrier_name2": "Caicos Express"
+    },
+    {
+      "carrier_code": "9T",
+      "carrier_name1": "Travelspan",
+      "carrier_name2": "Travelspan"
+    },
+    {
+      "carrier_code": "9U",
+      "carrier_name1": "Air Moldova",
+      "carrier_name2": "Air Moldova"
+    },
+    {
+      "carrier_code": "9V",
+      "carrier_name1": "Avior Airlines C.A",
+      "carrier_name2": "Avior Airlines"
+    },
+    {
+      "carrier_code": "9W",
+      "carrier_name1": "Jet Airways India",
+      "carrier_name2": "Jet Airways"
+    },
+    {
+      "carrier_code": "9X",
+      "carrier_name1": "Southern Airways Express",
+      "carrier_name2": "Southern Airways"
+    },
+    {
+      "carrier_code": "9Y",
+      "carrier_name1": "National Airways",
+      "carrier_name2": "National Airways"
+    },
+    {
+      "carrier_code": "A0",
+      "carrier_name1": "Avianca Argentina",
+      "carrier_name2": "AviancaArgentina"
+    },
+    {
+      "carrier_code": "A1",
+      "carrier_name1": "APG Distribution System",
+      "carrier_name2": "APG Distribution"
+    },
+    {
+      "carrier_code": "A3",
+      "carrier_name1": "Aegean Airline S.A",
+      "carrier_name2": "Aegean Air"
+    },
+    {
+      "carrier_code": "A4",
+      "carrier_name1": "Azimuth Airlines",
+      "carrier_name2": "Azimuth Airlines"
+    },
+    {
+      "carrier_code": "A5",
+      "carrier_name1": "HOP",
+      "carrier_name2": "HOP"
+    },
+    {
+      "carrier_code": "A6",
+      "carrier_name1": "Yunnan Hong Tu Airlines Co. Ltd.",
+      "carrier_name2": "Yunnan Hong Tu"
+    },
+    {
+      "carrier_code": "A7",
+      "carrier_name1": "Calafia Airlines",
+      "carrier_name2": "Calafia Airlines"
+    },
+    {
+      "carrier_code": "A8",
+      "carrier_name1": "Benin Golf Air",
+      "carrier_name2": "Benin Golf Air"
+    },
+    {
+      "carrier_code": "A9",
+      "carrier_name1": "Georgian Airways",
+      "carrier_name2": "Georgian Airways"
+    },
+    {
+      "carrier_code": "AA",
+      "carrier_name1": "American Airlines",
+      "carrier_name2": "American"
+    },
+    {
+      "carrier_code": "AC",
+      "carrier_name1": "Air Canada",
+      "carrier_name2": "Air Canada"
+    },
+    {
+      "carrier_code": "AD",
+      "carrier_name1": "Azul Linhas Aereas",
+      "carrier_name2": "Azul Linhas"
+    },
+    {
+      "carrier_code": "AE",
+      "carrier_name1": "Mandarin Airlines",
+      "carrier_name2": "Mandarin Air"
+    },
+    {
+      "carrier_code": "AF",
+      "carrier_name1": "Air France",
+      "carrier_name2": "Air France"
+    },
+    {
+      "carrier_code": "AG",
+      "carrier_name1": "Aruba Airlines",
+      "carrier_name2": "Aruba Airlines"
+    },
+    {
+      "carrier_code": "AH",
+      "carrier_name1": "Air Algerie",
+      "carrier_name2": "Air Algerie"
+    },
+    {
+      "carrier_code": "AI",
+      "carrier_name1": "Air India",
+      "carrier_name2": "Air India"
+    },
+    {
+      "carrier_code": "AJ",
+      "carrier_name1": "Aerocontractors",
+      "carrier_name2": "Aerocontractors"
+    },
+    {
+      "carrier_code": "AK",
+      "carrier_name1": "AirAsia",
+      "carrier_name2": "AirAsia"
+    },
+    {
+      "carrier_code": "AM",
+      "carrier_name1": "Aeromexico",
+      "carrier_name2": "Aeromexico"
+    },
+    {
+      "carrier_code": "AN",
+      "carrier_name1": "Advanced Air LLC",
+      "carrier_name2": "Advanced Air"
+    },
+    {
+      "carrier_code": "AO",
+      "carrier_name1": "Air Juan",
+      "carrier_name2": "Air Juan"
+    },
+    {
+      "carrier_code": "AP",
+      "carrier_name1": "AirOne S.P.A",
+      "carrier_name2": "AirOne S.P.A"
+    },
+    {
+      "carrier_code": "AQ",
+      "carrier_name1": "9 Air",
+      "carrier_name2": "9 Air"
+    },
+    {
+      "carrier_code": "AR",
+      "carrier_name1": "Aerolineas Argentinas",
+      "carrier_name2": "Aerolineas Argen"
+    },
+    {
+      "carrier_code": "AS",
+      "carrier_name1": "Alaska Airlines",
+      "carrier_name2": "Alaska Airlines"
+    },
+    {
+      "carrier_code": "AT",
+      "carrier_name1": "Royal Air Maroc",
+      "carrier_name2": "Royal Air Maroc"
+    },
+    {
+      "carrier_code": "AU",
+      "carrier_name1": "Austral Lineas Aerea S.A",
+      "carrier_name2": "Austral Lineas"
+    },
+    {
+      "carrier_code": "AV",
+      "carrier_name1": "Avianca",
+      "carrier_name2": "Avianca"
+    },
+    {
+      "carrier_code": "AW",
+      "carrier_name1": "Africa World Airlines",
+      "carrier_name2": "Africa World Air"
+    },
+    {
+      "carrier_code": "AX",
+      "carrier_name1": "Trans States Airlines Inc",
+      "carrier_name2": "Trans States Air"
+    },
+    {
+      "carrier_code": "AY",
+      "carrier_name1": "Finnair",
+      "carrier_name2": "Finnair"
+    },
+    {
+      "carrier_code": "AZ",
+      "carrier_name1": "Alitalia Societa Aerea Italiana SPA",
+      "carrier_name2": "Alitalia"
+    },
+    {
+      "carrier_code": "B0",
+      "carrier_name1": "La Compagnie",
+      "carrier_name2": "La Compagnie"
+    },
+    {
+      "carrier_code": "B2",
+      "carrier_name1": "Belavia",
+      "carrier_name2": "Belavia"
+    },
+    {
+      "carrier_code": "B5",
+      "carrier_name1": "East African Safari Air Express Ltd",
+      "carrier_name2": "East African Saf"
+    },
+    {
+      "carrier_code": "B6",
+      "carrier_name1": "JetBlue Airways Corporation",
+      "carrier_name2": "JetBlue Airways"
+    },
+    {
+      "carrier_code": "B7",
+      "carrier_name1": "Uni Airways Corporation",
+      "carrier_name2": "Uni Airways"
+    },
+    {
+      "carrier_code": "B8",
+      "carrier_name1": "Eritrean Airlines",
+      "carrier_name2": "Eritrean Air"
+    },
+    {
+      "carrier_code": "B9",
+      "carrier_name1": "Iran Airtour Airlines",
+      "carrier_name2": "Iran Airtour Air"
+    },
+    {
+      "carrier_code": "BA",
+      "carrier_name1": "British Airways",
+      "carrier_name2": "British Airways"
+    },
+    {
+      "carrier_code": "BB",
+      "carrier_name1": "Seaborne Airlines",
+      "carrier_name2": "Seaborne"
+    },
+    {
+      "carrier_code": "BD",
+      "carrier_name1": "Cambodia Bayon Airlines",
+      "carrier_name2": "Bayon Airlines"
+    },
+    {
+      "carrier_code": "BE",
+      "carrier_name1": "Flybe",
+      "carrier_name2": "Flybe"
+    },
+    {
+      "carrier_code": "BF",
+      "carrier_name1": "French Bee",
+      "carrier_name2": "French Bee"
+    },
+    {
+      "carrier_code": "BG",
+      "carrier_name1": "Biman Bangladesh Airlines",
+      "carrier_name2": "Biman Bangladesh"
+    },
+    {
+      "carrier_code": "BI",
+      "carrier_name1": "Royal Brunei Airlines",
+      "carrier_name2": "Royal Brunei"
+    },
+    {
+      "carrier_code": "BJ",
+      "carrier_name1": "Nouvelair Tunisie",
+      "carrier_name2": "Nouvelair Tunisi"
+    },
+    {
+      "carrier_code": "BK",
+      "carrier_name1": "Okay Airways Company Limited",
+      "carrier_name2": "Okay Airways"
+    },
+    {
+      "carrier_code": "BL",
+      "carrier_name1": "Jetstar Pacific Airlines",
+      "carrier_name2": "Jetstar Pacific"
+    },
+    {
+      "carrier_code": "BP",
+      "carrier_name1": "Air Botswana Corporation",
+      "carrier_name2": "Air Botswana"
+    },
+    {
+      "carrier_code": "BQ",
+      "carrier_name1": "Aeromar Airlines",
+      "carrier_name2": "Aeromar Air"
+    },
+    {
+      "carrier_code": "BR",
+      "carrier_name1": "EVA Airways",
+      "carrier_name2": "EVA Airways"
+    },
+    {
+      "carrier_code": "BS",
+      "carrier_name1": "US Bangla Airlines",
+      "carrier_name2": "US Bangla"
+    },
+    {
+      "carrier_code": "BT",
+      "carrier_name1": "Air Baltic Corporation AS",
+      "carrier_name2": "Air Baltic"
+    },
+    {
+      "carrier_code": "BU",
+      "carrier_name1": "Compagnie Africaine d'Aviation",
+      "carrier_name2": "CAA"
+    },
+    {
+      "carrier_code": "BV",
+      "carrier_name1": "Blue Panorama Airlines",
+      "carrier_name2": "Blue Panorama"
+    },
+    {
+      "carrier_code": "BW",
+      "carrier_name1": "Caribbean Airlines Limited",
+      "carrier_name2": "Caribbean Air"
+    },
+    {
+      "carrier_code": "BX",
+      "carrier_name1": "Air Busan",
+      "carrier_name2": "Air Busan"
+    },
+    {
+      "carrier_code": "BY",
+      "carrier_name1": "Thomson Airways Limited",
+      "carrier_name2": "Thomson Airways"
+    },
+    {
+      "carrier_code": "BZ",
+      "carrier_name1": "Blue Bird Airways",
+      "carrier_name2": "Blue Bird Airway"
+    },
+    {
+      "carrier_code": "C0",
+      "carrier_name1": "One Caribbean Ltd",
+      "carrier_name2": "One Caribbean"
+    },
+    {
+      "carrier_code": "C2",
+      "carrier_name1": "CEIBA Intercontinental",
+      "carrier_name2": "CEIBA Intercon"
+    },
+    {
+      "carrier_code": "C3",
+      "carrier_name1": "Trade Air Ltd",
+      "carrier_name2": "Trade Air Ltd"
+    },
+    {
+      "carrier_code": "C5",
+      "carrier_name1": "CommutAir",
+      "carrier_name2": "CommutAir"
+    },
+    {
+      "carrier_code": "C6",
+      "carrier_name1": "Canjet Airlines",
+      "carrier_name2": "Canjet"
+    },
+    {
+      "carrier_code": "C7",
+      "carrier_name1": "Cinnamon Air",
+      "carrier_name2": "Cinnamon Air"
+    },
+    {
+      "carrier_code": "C8",
+      "carrier_name1": "Cronus Airlines",
+      "carrier_name2": "Cronus Airlines"
+    },
+    {
+      "carrier_code": "C9",
+      "carrier_name1": "Alphaland Aviation, Inc",
+      "carrier_name2": "Alphaland Inc"
+    },
+    {
+      "carrier_code": "CA",
+      "carrier_name1": "Air China Limited",
+      "carrier_name2": "Air China"
+    },
+    {
+      "carrier_code": "CB",
+      "carrier_name1": "ScotAirways",
+      "carrier_name2": "ScotAirways"
+    },
+    {
+      "carrier_code": "CD",
+      "carrier_name1": "Alliance Air (India)",
+      "carrier_name2": "Alliance Air"
+    },
+    {
+      "carrier_code": "CE",
+      "carrier_name1": "Chalair Aviation",
+      "carrier_name2": "Chalair"
+    },
+    {
+      "carrier_code": "CG",
+      "carrier_name1": "PNG Air Limited",
+      "carrier_name2": "PNG Air"
+    },
+    {
+      "carrier_code": "CH",
+      "carrier_name1": "Bemidji Aviation Services Inc",
+      "carrier_name2": "Bemidji"
+    },
+    {
+      "carrier_code": "CI",
+      "carrier_name1": "China Airlines",
+      "carrier_name2": "China Airlines"
+    },
+    {
+      "carrier_code": "CJ",
+      "carrier_name1": "BA City Flyer",
+      "carrier_name2": "BA City Flyer"
+    },
+    {
+      "carrier_code": "CL",
+      "carrier_name1": "Lufthansa CityLine GmbH",
+      "carrier_name2": "Lufthansa City"
+    },
+    {
+      "carrier_code": "CM",
+      "carrier_name1": "Compania Panamena de Aviacion, S.A",
+      "carrier_name2": "Copa Airlines"
+    },
+    {
+      "carrier_code": "CN",
+      "carrier_name1": "Grand China Air",
+      "carrier_name2": "Grand China Air"
+    },
+    {
+      "carrier_code": "CP",
+      "carrier_name1": "Compass Airlines Inc",
+      "carrier_name2": "Compass Airlines"
+    },
+    {
+      "carrier_code": "CQ",
+      "carrier_name1": "Coastal Aviation",
+      "carrier_name2": "Coastal Aviation"
+    },
+    {
+      "carrier_code": "CT",
+      "carrier_name1": "Alitalia City Liner SPA",
+      "carrier_name2": "Alitalia City"
+    },
+    {
+      "carrier_code": "CU",
+      "carrier_name1": "Cubana de Aviacion S.A.",
+      "carrier_name2": "Cubana Airlines"
+    },
+    {
+      "carrier_code": "CV",
+      "carrier_name1": "Cargolux Airlines International",
+      "carrier_name2": "Cargolux"
+    },
+    {
+      "carrier_code": "CX",
+      "carrier_name1": "Cathay Pacific Airways",
+      "carrier_name2": "Cathay Pacific"
+    },
+    {
+      "carrier_code": "CY",
+      "carrier_name1": "Charlie Airlines",
+      "carrier_name2": "Charlie Airlines"
+    },
+    {
+      "carrier_code": "CZ",
+      "carrier_name1": "China Southern Airlines",
+      "carrier_name2": "China Southern"
+    },
+    {
+      "carrier_code": "D2",
+      "carrier_name1": "Severstal Aircompany Ltd",
+      "carrier_name2": "Severstal"
+    },
+    {
+      "carrier_code": "D5",
+      "carrier_name1": "Dauair",
+      "carrier_name2": "Dauair"
+    },
+    {
+      "carrier_code": "D8",
+      "carrier_name1": "Norwegian",
+      "carrier_name2": "Norwegian"
+    },
+    {
+      "carrier_code": "D9",
+      "carrier_name1": "Dena Airways",
+      "carrier_name2": "Dena Airways"
+    },
+    {
+      "carrier_code": "DD",
+      "carrier_name1": "Nok Air",
+      "carrier_name2": "Nok Air"
+    },
+    {
+      "carrier_code": "DE",
+      "carrier_name1": "Condor Flugdienst GmbH",
+      "carrier_name2": "Condor"
+    },
+    {
+      "carrier_code": "DF",
+      "carrier_name1": "Condor Berlin",
+      "carrier_name2": "Condor Berlin"
+    },
+    {
+      "carrier_code": "DG",
+      "carrier_name1": "Cebgo",
+      "carrier_name2": "Cebgo"
+    },
+    {
+      "carrier_code": "DH",
+      "carrier_name1": "Independence Air",
+      "carrier_name2": "Independence Air"
+    },
+    {
+      "carrier_code": "DI",
+      "carrier_name1": "Norwegian Air UK",
+      "carrier_name2": "Norwegian Air UK"
+    },
+    {
+      "carrier_code": "DL",
+      "carrier_name1": "Delta Air Lines",
+      "carrier_name2": "Delta"
+    },
+    {
+      "carrier_code": "DN",
+      "carrier_name1": "Norwegian Air Argentina",
+      "carrier_name2": "Norwegian Air"
+    },
+    {
+      "carrier_code": "DO",
+      "carrier_name1": "Sky High Aviation Services",
+      "carrier_name2": "Sky High"
+    },
+    {
+      "carrier_code": "DP",
+      "carrier_name1": "Pobeda",
+      "carrier_name2": "Pobeda"
+    },
+    {
+      "carrier_code": "DQ",
+      "carrier_name1": "Alexandria Airlines",
+      "carrier_name2": "Alexandria Air"
+    },
+    {
+      "carrier_code": "DR",
+      "carrier_name1": "Ruili Airlines Co Ltd",
+      "carrier_name2": "Ruili Airlines"
+    },
+    {
+      "carrier_code": "DT",
+      "carrier_name1": "TAAG Linhas Aereas de Angola",
+      "carrier_name2": "Angola Airlines"
+    },
+    {
+      "carrier_code": "DU",
+      "carrier_name1": "Air Liaison",
+      "carrier_name2": "Air Liaison"
+    },
+    {
+      "carrier_code": "DV",
+      "carrier_name1": "JSC Air Company SCAT",
+      "carrier_name2": "Air Company SCAT"
+    },
+    {
+      "carrier_code": "DW",
+      "carrier_name1": "JSC Air Company Aero Charter",
+      "carrier_name2": "Aero Charter"
+    },
+    {
+      "carrier_code": "DX",
+      "carrier_name1": "Danish Air Transport",
+      "carrier_name2": "Danish Air"
+    },
+    {
+      "carrier_code": "DY",
+      "carrier_name1": "Norwegian Air Shuttle A.S",
+      "carrier_name2": "Norwegian Air"
+    },
+    {
+      "carrier_code": "DZ",
+      "carrier_name1": "Donghai Airlines Co Ltd",
+      "carrier_name2": "Donghai Airlines"
+    },
+    {
+      "carrier_code": "E2",
+      "carrier_name1": "Eurowings Europe GmbH.",
+      "carrier_name2": "Eurowings Europe"
+    },
+    {
+      "carrier_code": "E3",
+      "carrier_name1": "NewGen Airways",
+      "carrier_name2": "NewGen Airways"
+    },
+    {
+      "carrier_code": "E7",
+      "carrier_name1": "Equaflight Service",
+      "carrier_name2": "Equaflight"
+    },
+    {
+      "carrier_code": "E9",
+      "carrier_name1": "Evelop Airlines S.L.",
+      "carrier_name2": "Evelop Airlines"
+    },
+    {
+      "carrier_code": "EA",
+      "carrier_name1": "European Air Express",
+      "carrier_name2": "European Express"
+    },
+    {
+      "carrier_code": "EB",
+      "carrier_name1": "WAMOS AIR S.A.",
+      "carrier_name2": "WAMOS AIR"
+    },
+    {
+      "carrier_code": "EC",
+      "carrier_name1": "OpenSkies",
+      "carrier_name2": "OpenSkies"
+    },
+    {
+      "carrier_code": "ED",
+      "carrier_name1": "AirExplore",
+      "carrier_name2": "AirExplore"
+    },
+    {
+      "carrier_code": "EH",
+      "carrier_name1": "ANA Wings Co Ltd",
+      "carrier_name2": "ANA Wings"
+    },
+    {
+      "carrier_code": "EI",
+      "carrier_name1": "Aer Lingus P.L.C.",
+      "carrier_name2": "Aer Lingus"
+    },
+    {
+      "carrier_code": "EJ",
+      "carrier_name1": "New England Airlines",
+      "carrier_name2": "New England"
+    },
+    {
+      "carrier_code": "EK",
+      "carrier_name1": "Emirates",
+      "carrier_name2": "Emirates"
+    },
+    {
+      "carrier_code": "EL",
+      "carrier_name1": "Ellinair S A",
+      "carrier_name2": "Ellinair S A"
+    },
+    {
+      "carrier_code": "EM",
+      "carrier_name1": "Aero Benin",
+      "carrier_name2": "Aero Benin"
+    },
+    {
+      "carrier_code": "EN",
+      "carrier_name1": "Air Dolomiti S P A",
+      "carrier_name2": "Air Dolomiti"
+    },
+    {
+      "carrier_code": "EO",
+      "carrier_name1": "Pegas Fly",
+      "carrier_name2": "Pegas Fly"
+    },
+    {
+      "carrier_code": "EP",
+      "carrier_name1": "Iran Assemam Airlines",
+      "carrier_name2": "Iran Asseman"
+    },
+    {
+      "carrier_code": "EQ",
+      "carrier_name1": "TAME Airlines",
+      "carrier_name2": "TAME Airlines"
+    },
+    {
+      "carrier_code": "ER",
+      "carrier_name1": "Serene Air",
+      "carrier_name2": "Serene Air"
+    },
+    {
+      "carrier_code": "ET",
+      "carrier_name1": "Ethiopian Airlines",
+      "carrier_name2": "Ethiopian Air"
+    },
+    {
+      "carrier_code": "EU",
+      "carrier_name1": "Chengdu Airlines",
+      "carrier_name2": "Chengdu Airlines"
+    },
+    {
+      "carrier_code": "EV",
+      "carrier_name1": "ExpressJet Airlines Inc.",
+      "carrier_name2": "ExpressJet"
+    },
+    {
+      "carrier_code": "EW",
+      "carrier_name1": "Eurowings GmbH",
+      "carrier_name2": "Eurowings"
+    },
+    {
+      "carrier_code": "EX",
+      "carrier_name1": "Air Santo Domingo",
+      "carrier_name2": "Santo Domingo"
+    },
+    {
+      "carrier_code": "EY",
+      "carrier_name1": "Etihad Airways",
+      "carrier_name2": "Etihad Airways"
+    },
+    {
+      "carrier_code": "EZ",
+      "carrier_name1": "Sun Air of Scandinavia",
+      "carrier_name2": "Sun Air Scandina"
+    },
+    {
+      "carrier_code": "F3",
+      "carrier_name1": "Flyadeal",
+      "carrier_name2": "Flyadeal"
+    },
+    {
+      "carrier_code": "F6",
+      "carrier_name1": "Fly Compass Service S.R.L",
+      "carrier_name2": "Fly Compass"
+    },
+    {
+      "carrier_code": "F7",
+      "carrier_name1": "Etihad Regional",
+      "carrier_name2": "Etihad Regional"
+    },
+    {
+      "carrier_code": "F8",
+      "carrier_name1": "Flair Airlines Ltd",
+      "carrier_name2": "Flair Airlines"
+    },
+    {
+      "carrier_code": "F9",
+      "carrier_name1": "Frontier Airlines Inc",
+      "carrier_name2": "Frontier"
+    },
+    {
+      "carrier_code": "FA",
+      "carrier_name1": "Safair (Proprietary) Ltd.",
+      "carrier_name2": "Safair"
+    },
+    {
+      "carrier_code": "FB",
+      "carrier_name1": "Bulgaria Air",
+      "carrier_name2": "Bulgaria Air"
+    },
+    {
+      "carrier_code": "FC",
+      "carrier_name1": "Fly Corporate",
+      "carrier_name2": "Fly Corporate"
+    },
+    {
+      "carrier_code": "FD",
+      "carrier_name1": "Thai AirAsia CO Ltd",
+      "carrier_name2": "Thai AirAsia"
+    },
+    {
+      "carrier_code": "FE",
+      "carrier_name1": "Far Eastern Air Transport Corp",
+      "carrier_name2": "Far Eastern Air"
+    },
+    {
+      "carrier_code": "FH",
+      "carrier_name1": "Freebird Airlines",
+      "carrier_name2": "Freebird Airline"
+    },
+    {
+      "carrier_code": "FI",
+      "carrier_name1": "Icelandair",
+      "carrier_name2": "Icelandair"
+    },
+    {
+      "carrier_code": "FJ",
+      "carrier_name1": "Fiji Airways",
+      "carrier_name2": "Fiji Airways"
+    },
+    {
+      "carrier_code": "FK",
+      "carrier_name1": "Keewatin Air",
+      "carrier_name2": "Keewatin Air"
+    },
+    {
+      "carrier_code": "FL",
+      "carrier_name1": "AirTran Airways Inc",
+      "carrier_name2": "AirTran Airways"
+    },
+    {
+      "carrier_code": "FM",
+      "carrier_name1": "Shanghai Airlines Co Ltd",
+      "carrier_name2": "Shanghai"
+    },
+    {
+      "carrier_code": "FN",
+      "carrier_name1": "Fastjet Airlines Limited",
+      "carrier_name2": "Fastjet Airlines"
+    },
+    {
+      "carrier_code": "FP",
+      "carrier_name1": "Pelican Airlines",
+      "carrier_name2": "Pelican Airlines"
+    },
+    {
+      "carrier_code": "FQ",
+      "carrier_name1": "SOL S.A Lineas Aereas",
+      "carrier_name2": "SOL Lineas"
+    },
+    {
+      "carrier_code": "FR",
+      "carrier_name1": "RyanAir Ltd",
+      "carrier_name2": "RyanAir"
+    },
+    {
+      "carrier_code": "FT",
+      "carrier_name1": "FlyEgypt",
+      "carrier_name2": "FlyEgypt"
+    },
+    {
+      "carrier_code": "FU",
+      "carrier_name1": "Fuzhou Airlines Co Ltd",
+      "carrier_name2": "Fuzhou Airlines"
+    },
+    {
+      "carrier_code": "FV",
+      "carrier_name1": "Rossiya Airlines",
+      "carrier_name2": "Rossiya Airlines"
+    },
+    {
+      "carrier_code": "FW",
+      "carrier_name1": "IBEX Airlines Co Ltd",
+      "carrier_name2": "IBEX Airlines"
+    },
+    {
+      "carrier_code": "FY",
+      "carrier_name1": "Firefly",
+      "carrier_name2": "Firefly"
+    },
+    {
+      "carrier_code": "FZ",
+      "carrier_name1": "flydubai",
+      "carrier_name2": "flydubai"
+    },
+    {
+      "carrier_code": "G3",
+      "carrier_name1": "GOL LINHAS AEREAS S.A.",
+      "carrier_name2": "GOL"
+    },
+    {
+      "carrier_code": "G4",
+      "carrier_name1": "Allegiant Air",
+      "carrier_name2": "Allegiant Air"
+    },
+    {
+      "carrier_code": "G5",
+      "carrier_name1": "China Express Airlines",
+      "carrier_name2": "China Express"
+    },
+    {
+      "carrier_code": "G8",
+      "carrier_name1": "Go Airlines (India) Pvt Ltd",
+      "carrier_name2": "Go Air"
+    },
+    {
+      "carrier_code": "G9",
+      "carrier_name1": "Air Arabia",
+      "carrier_name2": "Air Arabia"
+    },
+    {
+      "carrier_code": "GA",
+      "carrier_name1": "Garuda Indonesian",
+      "carrier_name2": "Garuda"
+    },
+    {
+      "carrier_code": "GE",
+      "carrier_name1": "Transasia Airways Corporation",
+      "carrier_name2": "Transasia Airway"
+    },
+    {
+      "carrier_code": "GF",
+      "carrier_name1": "Gulf Air Company B.S.C",
+      "carrier_name2": "Gulf Air"
+    },
+    {
+      "carrier_code": "GG",
+      "carrier_name1": "Skylease",
+      "carrier_name2": "Skylease"
+    },
+    {
+      "carrier_code": "GH",
+      "carrier_name1": "Globus LLC",
+      "carrier_name2": "Globus LLC"
+    },
+    {
+      "carrier_code": "GI",
+      "carrier_name1": "Itek Air",
+      "carrier_name2": "Itek Air"
+    },
+    {
+      "carrier_code": "GJ",
+      "carrier_name1": "Zhejiang Loong Airlines Co. Ltd",
+      "carrier_name2": "Zhejiang Loong"
+    },
+    {
+      "carrier_code": "GK",
+      "carrier_name1": "Jetstar Japan",
+      "carrier_name2": "Jetstar Japan"
+    },
+    {
+      "carrier_code": "GL",
+      "carrier_name1": "Air Greenland",
+      "carrier_name2": "Air Greenland"
+    },
+    {
+      "carrier_code": "GM",
+      "carrier_name1": "Germania Flug AG",
+      "carrier_name2": "Germania"
+    },
+    {
+      "carrier_code": "GP",
+      "carrier_name1": "APG Airlines",
+      "carrier_name2": "APG Airlines"
+    },
+    {
+      "carrier_code": "GQ",
+      "carrier_name1": "Sky Express S.A.",
+      "carrier_name2": "Sky Express"
+    },
+    {
+      "carrier_code": "GR",
+      "carrier_name1": "Aurigny Air Services Ltd",
+      "carrier_name2": "Aurigny Air Svc"
+    },
+    {
+      "carrier_code": "GS",
+      "carrier_name1": "Tianjin Airlines Co Ltd",
+      "carrier_name2": "Tianjin Airlines"
+    },
+    {
+      "carrier_code": "GT",
+      "carrier_name1": "Air Guilin Co. Ltd",
+      "carrier_name2": "Air Guilin"
+    },
+    {
+      "carrier_code": "GU",
+      "carrier_name1": "Aviateca S.A",
+      "carrier_name2": "Aviateca"
+    },
+    {
+      "carrier_code": "GV",
+      "carrier_name1": "Grant Aviation Inc",
+      "carrier_name2": "Grant Aviation"
+    },
+    {
+      "carrier_code": "GX",
+      "carrier_name1": "Guangxi Beibu Gulf Airlines",
+      "carrier_name2": "Guangxi Beibu"
+    },
+    {
+      "carrier_code": "GY",
+      "carrier_name1": "Colorful Guizhou Airlines",
+      "carrier_name2": "Colorful Guizhou"
+    },
+    {
+      "carrier_code": "GZ",
+      "carrier_name1": "Air Rarotonga",
+      "carrier_name2": "Air Rarotonga"
+    },
+    {
+      "carrier_code": "H1",
+      "carrier_name1": "Hahn Air Systems",
+      "carrier_name2": "Hahn Air Systems"
+    },
+    {
+      "carrier_code": "H2",
+      "carrier_name1": "Sky Airline S.A.",
+      "carrier_name2": "Sky Airline"
+    },
+    {
+      "carrier_code": "H4",
+      "carrier_name1": "Aero4M d.o.o",
+      "carrier_name2": "Aero4M d.o.o"
+    },
+    {
+      "carrier_code": "H6",
+      "carrier_name1": "Hageland Aviation Services Inc",
+      "carrier_name2": "Hageland"
+    },
+    {
+      "carrier_code": "H7",
+      "carrier_name1": "Taron-Avia",
+      "carrier_name2": "Taron-Avia"
+    },
+    {
+      "carrier_code": "H9",
+      "carrier_name1": "Himalaya Airlines",
+      "carrier_name2": "Himalaya"
+    },
+    {
+      "carrier_code": "HA",
+      "carrier_name1": "Hawaiian Airlines Inc",
+      "carrier_name2": "Hawaiian"
+    },
+    {
+      "carrier_code": "HB",
+      "carrier_name1": "Asia Atlantic Airlines",
+      "carrier_name2": "Asia Atlantic"
+    },
+    {
+      "carrier_code": "HC",
+      "carrier_name1": "Air Senegal",
+      "carrier_name2": "Air Senegal"
+    },
+    {
+      "carrier_code": "HD",
+      "carrier_name1": "AirDo",
+      "carrier_name2": "AirDo"
+    },
+    {
+      "carrier_code": "HE",
+      "carrier_name1": "LGW-Luftfahrtgesellschaft Walter",
+      "carrier_name2": "LGW"
+    },
+    {
+      "carrier_code": "HF",
+      "carrier_name1": "Air Cote D'Ivoire",
+      "carrier_name2": "Air Ivory Coast"
+    },
+    {
+      "carrier_code": "HH",
+      "carrier_name1": "Taban Airlines",
+      "carrier_name2": "Taban Airlines"
+    },
+    {
+      "carrier_code": "HI",
+      "carrier_name1": "Papillon Airways Inc",
+      "carrier_name2": "Papillon"
+    },
+    {
+      "carrier_code": "HK",
+      "carrier_name1": "Skippers Aviation",
+      "carrier_name2": "Skippers Aviatio"
+    },
+    {
+      "carrier_code": "HM",
+      "carrier_name1": "Air Seychelles",
+      "carrier_name2": "Air Seychelles"
+    },
+    {
+      "carrier_code": "HN",
+      "carrier_name1": "Saffat Airlines",
+      "carrier_name2": "Saffat Airlines"
+    },
+    {
+      "carrier_code": "HO",
+      "carrier_name1": "Juneyao Airlines CO Ltd",
+      "carrier_name2": "Juneyao Airlines"
+    },
+    {
+      "carrier_code": "HP",
+      "carrier_name1": "Amapola Flyg AB",
+      "carrier_name2": "Amapola Flyg AB"
+    },
+    {
+      "carrier_code": "HR",
+      "carrier_name1": "Hahn Air Lines GmbH",
+      "carrier_name2": "Hahn Air Lines"
+    },
+    {
+      "carrier_code": "HS",
+      "carrier_name1": "Heli Securite Helicopter Airline",
+      "carrier_name2": "Heli Securite"
+    },
+    {
+      "carrier_code": "HU",
+      "carrier_name1": "Hainan Airlines Company Limited",
+      "carrier_name2": "Hainan Airlines"
+    },
+    {
+      "carrier_code": "HV",
+      "carrier_name1": "Transavia Airlines",
+      "carrier_name2": "Transavia"
+    },
+    {
+      "carrier_code": "HW",
+      "carrier_name1": "North-Wright Air Ltd",
+      "carrier_name2": "North-Wright"
+    },
+    {
+      "carrier_code": "HX",
+      "carrier_name1": "Hong Kong Airlines Limited",
+      "carrier_name2": "Hong Kong Air"
+    },
+    {
+      "carrier_code": "HY",
+      "carrier_name1": "Uzbekistan Airways",
+      "carrier_name2": "Uzbekistan"
+    },
+    {
+      "carrier_code": "HZ",
+      "carrier_name1": "JSC Aurora Airlines",
+      "carrier_name2": "JSC Aurora"
+    },
+    {
+      "carrier_code": "I2",
+      "carrier_name1": "Iberia Express",
+      "carrier_name2": "Iberia Express"
+    },
+    {
+      "carrier_code": "I3",
+      "carrier_name1": "ATA Airlines",
+      "carrier_name2": "ATA Airlines"
+    },
+    {
+      "carrier_code": "I4",
+      "carrier_name1": "Scott Air LLC",
+      "carrier_name2": "Scott Air LLC"
+    },
+    {
+      "carrier_code": "I8",
+      "carrier_name1": "Aboriginal Air Services",
+      "carrier_name2": "Aboriginal Air"
+    },
+    {
+      "carrier_code": "IA",
+      "carrier_name1": "Iraqi Airways",
+      "carrier_name2": "Iraqi Airways"
+    },
+    {
+      "carrier_code": "IB",
+      "carrier_name1": "Iberia Lineas Aereas de Espana S.A.",
+      "carrier_name2": "Iberia"
+    },
+    {
+      "carrier_code": "ID",
+      "carrier_name1": "Batik Air",
+      "carrier_name2": "Batik Air"
+    },
+    {
+      "carrier_code": "IE",
+      "carrier_name1": "Solomon Airlines Limited",
+      "carrier_name2": "Solomon Airlines"
+    },
+    {
+      "carrier_code": "IF",
+      "carrier_name1": "Fly Baghdad Airlines",
+      "carrier_name2": "Fly Baghdad Airl"
+    },
+    {
+      "carrier_code": "IG",
+      "carrier_name1": "Air Italy S.p.A",
+      "carrier_name2": "Air Italy"
+    },
+    {
+      "carrier_code": "IH",
+      "carrier_name1": "Southern Sky Airlines JSC",
+      "carrier_name2": "Southern Sky JSC"
+    },
+    {
+      "carrier_code": "II",
+      "carrier_name1": "IBC Airways",
+      "carrier_name2": "IBC Airways"
+    },
+    {
+      "carrier_code": "IJ",
+      "carrier_name1": "Spring Airlines Japan",
+      "carrier_name2": "Spring Airlines"
+    },
+    {
+      "carrier_code": "IK",
+      "carrier_name1": "Air Kiribati",
+      "carrier_name2": "Air Kiribati"
+    },
+    {
+      "carrier_code": "IM",
+      "carrier_name1": "JSC Aircompany ATMA",
+      "carrier_name2": "JSC Aircompany"
+    },
+    {
+      "carrier_code": "IO",
+      "carrier_name1": "Intercontinental Pacific Airways",
+      "carrier_name2": "Intercontinental"
+    },
+    {
+      "carrier_code": "IQ",
+      "carrier_name1": "Qazaq Air",
+      "carrier_name2": "Qazaq Air"
+    },
+    {
+      "carrier_code": "IR",
+      "carrier_name1": "Iran Air",
+      "carrier_name2": "Iran Air"
+    },
+    {
+      "carrier_code": "IS",
+      "carrier_name1": "Sepehran Airlines",
+      "carrier_name2": "Sepehran Air"
+    },
+    {
+      "carrier_code": "IT",
+      "carrier_name1": "Tigerair Taiwan Co Ltd",
+      "carrier_name2": "Tigerair Taiwan"
+    },
+    {
+      "carrier_code": "IW",
+      "carrier_name1": "Wings Air",
+      "carrier_name2": "Wings Air"
+    },
+    {
+      "carrier_code": "IX",
+      "carrier_name1": "Air India Charters Limited",
+      "carrier_name2": "Air India Exp"
+    },
+    {
+      "carrier_code": "IY",
+      "carrier_name1": "Yemenia Yemen Airways",
+      "carrier_name2": "Yemenia Yemen"
+    },
+    {
+      "carrier_code": "IZ",
+      "carrier_name1": "Arkia Israeli Airlines",
+      "carrier_name2": "Arkia Israeli"
+    },
+    {
+      "carrier_code": "J2",
+      "carrier_name1": "Azerbaijan Hava Yollary",
+      "carrier_name2": "Azerbaijan Airl"
+    },
+    {
+      "carrier_code": "J3",
+      "carrier_name1": "Northwestern Air Lease Ltd",
+      "carrier_name2": "Northwestern Air"
+    },
+    {
+      "carrier_code": "J5",
+      "carrier_name1": "Alaska Seaplane Service LLC",
+      "carrier_name2": "Alaska Seaplane"
+    },
+    {
+      "carrier_code": "J6",
+      "carrier_name1": "Jamaica Air Shuttle",
+      "carrier_name2": "Jamaica Air"
+    },
+    {
+      "carrier_code": "J7",
+      "carrier_name1": "Afrijet",
+      "carrier_name2": "Afrijet"
+    },
+    {
+      "carrier_code": "J9",
+      "carrier_name1": "Jazeera Airways",
+      "carrier_name2": "Jazeera Airways"
+    },
+    {
+      "carrier_code": "JA",
+      "carrier_name1": "Jetsmart",
+      "carrier_name2": "JETSMART SPA"
+    },
+    {
+      "carrier_code": "JB",
+      "carrier_name1": "Helijet International Inc",
+      "carrier_name2": "Helijet Intl Inc"
+    },
+    {
+      "carrier_code": "JC",
+      "carrier_name1": "Japan Air Commuter",
+      "carrier_name2": "Japan Air Commut"
+    },
+    {
+      "carrier_code": "JD",
+      "carrier_name1": "Beijing Capital Airlines Co Ltd",
+      "carrier_name2": "Capital Airlines"
+    },
+    {
+      "carrier_code": "JE",
+      "carrier_name1": "Mango",
+      "carrier_name2": "Mango"
+    },
+    {
+      "carrier_code": "JF",
+      "carrier_name1": "Jet Asia Airways",
+      "carrier_name2": "Jet Asia Airways"
+    },
+    {
+      "carrier_code": "JH",
+      "carrier_name1": "Fuji Dream Airlines Co Ltd",
+      "carrier_name2": "Fuji Dream"
+    },
+    {
+      "carrier_code": "JI",
+      "carrier_name1": "San Juan Aviation",
+      "carrier_name2": "San Juan Aviatio"
+    },
+    {
+      "carrier_code": "JJ",
+      "carrier_name1": "LATAM Airlines Brazil",
+      "carrier_name2": "LATAM Brazil"
+    },
+    {
+      "carrier_code": "JK",
+      "carrier_name1": "Spanair",
+      "carrier_name2": "Spanair"
+    },
+    {
+      "carrier_code": "JL",
+      "carrier_name1": "Japan Airlines Co Ltd",
+      "carrier_name2": "Japan Airlines"
+    },
+    {
+      "carrier_code": "JM",
+      "carrier_name1": "Jambojet",
+      "carrier_name2": "Jambojet"
+    },
+    {
+      "carrier_code": "JN",
+      "carrier_name1": "Joon",
+      "carrier_name2": "Joon"
+    },
+    {
+      "carrier_code": "JO",
+      "carrier_name1": "Royal Wings",
+      "carrier_name2": "Royal Wings"
+    },
+    {
+      "carrier_code": "JP",
+      "carrier_name1": "Adria Airways",
+      "carrier_name2": "Adria Airways"
+    },
+    {
+      "carrier_code": "JQ",
+      "carrier_name1": "Jetstar Airways Pty Limited",
+      "carrier_name2": "Jetstar Airways"
+    },
+    {
+      "carrier_code": "JR",
+      "carrier_name1": "Joy Air",
+      "carrier_name2": "Joy Air"
+    },
+    {
+      "carrier_code": "JS",
+      "carrier_name1": "Air Koryo",
+      "carrier_name2": "Air Koryo"
+    },
+    {
+      "carrier_code": "JU",
+      "carrier_name1": "Air Serbia",
+      "carrier_name2": "Air Serbia"
+    },
+    {
+      "carrier_code": "JV",
+      "carrier_name1": "Perimeter Aviation LP dba Bearskin",
+      "carrier_name2": "Bearskin Airline"
+    },
+    {
+      "carrier_code": "JW",
+      "carrier_name1": "Vanilla Air",
+      "carrier_name2": "Vanilla Air"
+    },
+    {
+      "carrier_code": "JY",
+      "carrier_name1": "interCaribbean Airways Ltd",
+      "carrier_name2": "interCaribbean"
+    },
+    {
+      "carrier_code": "JZ",
+      "carrier_name1": "Jubba Airways",
+      "carrier_name2": "Jubba Airways"
+    },
+    {
+      "carrier_code": "K2",
+      "carrier_name1": "Yute Commuter Service",
+      "carrier_name2": "Yute Commuter"
+    },
+    {
+      "carrier_code": "K3",
+      "carrier_name1": "Taquan Air Service",
+      "carrier_name2": "Taquan Air Svc"
+    },
+    {
+      "carrier_code": "K5",
+      "carrier_name1": "Silverstone Air Services",
+      "carrier_name2": "Silverstone Air"
+    },
+    {
+      "carrier_code": "K6",
+      "carrier_name1": "Cambodia Angkor Air Co Ltd",
+      "carrier_name2": "Cambodia Angkor"
+    },
+    {
+      "carrier_code": "K7",
+      "carrier_name1": "Air KBZ Ltd",
+      "carrier_name2": "Air KBZ Ltd"
+    },
+    {
+      "carrier_code": "K9",
+      "carrier_name1": "Esen Air",
+      "carrier_name2": "Esen Air"
+    },
+    {
+      "carrier_code": "KA",
+      "carrier_name1": "Cathay Dragon",
+      "carrier_name2": "Cathay Dragon"
+    },
+    {
+      "carrier_code": "KB",
+      "carrier_name1": "Druk Air Corporation Ltd",
+      "carrier_name2": "Druk Air"
+    },
+    {
+      "carrier_code": "KC",
+      "carrier_name1": "Air Astana",
+      "carrier_name2": "Air Astana"
+    },
+    {
+      "carrier_code": "KE",
+      "carrier_name1": "Korean Air lines Co Ltd",
+      "carrier_name2": "Korean Air lines"
+    },
+    {
+      "carrier_code": "KF",
+      "carrier_name1": "Air Belgium",
+      "carrier_name2": "Air Belgium"
+    },
+    {
+      "carrier_code": "KG",
+      "carrier_name1": "Aerogaviota",
+      "carrier_name2": "Aerogaviota"
+    },
+    {
+      "carrier_code": "KJ",
+      "carrier_name1": "Air Incheon",
+      "carrier_name2": "Air Incheon"
+    },
+    {
+      "carrier_code": "KK",
+      "carrier_name1": "AtlasGlobal",
+      "carrier_name2": "AtlasGlobal"
+    },
+    {
+      "carrier_code": "KL",
+      "carrier_name1": "KLM Royal Dutch Airlines",
+      "carrier_name2": "KLM"
+    },
+    {
+      "carrier_code": "KM",
+      "carrier_name1": "Air Malta P.L.C",
+      "carrier_name2": "Air Malta"
+    },
+    {
+      "carrier_code": "KN",
+      "carrier_name1": "China UnitedAirlines",
+      "carrier_name2": "China United"
+    },
+    {
+      "carrier_code": "KO",
+      "carrier_name1": "Alaska Central Express",
+      "carrier_name2": "Alaska Express"
+    },
+    {
+      "carrier_code": "KP",
+      "carrier_name1": "ASKY",
+      "carrier_name2": "ASKY"
+    },
+    {
+      "carrier_code": "KQ",
+      "carrier_name1": "Kenya Airways",
+      "carrier_name2": "Kenya Airways"
+    },
+    {
+      "carrier_code": "KR",
+      "carrier_name1": "Cambodia Airways Co.Ltd",
+      "carrier_name2": "Cambodia Airways"
+    },
+    {
+      "carrier_code": "KS",
+      "carrier_name1": "Peninsula Airways",
+      "carrier_name2": "PenAir"
+    },
+    {
+      "carrier_code": "KT",
+      "carrier_name1": "Kharkiv Airlines",
+      "carrier_name2": "Kharkiv Airlines"
+    },
+    {
+      "carrier_code": "KU",
+      "carrier_name1": "Kuwait Airways",
+      "carrier_name2": "Kuwait Airways"
+    },
+    {
+      "carrier_code": "KX",
+      "carrier_name1": "Cayman Airways Limited",
+      "carrier_name2": "Cayman Airways"
+    },
+    {
+      "carrier_code": "L4",
+      "carrier_name1": "Grupo LASA S.R.L.",
+      "carrier_name2": "Grupo LASA"
+    },
+    {
+      "carrier_code": "L6",
+      "carrier_name1": "Mauritania Airlines International",
+      "carrier_name2": "Mauritania"
+    },
+    {
+      "carrier_code": "LA",
+      "carrier_name1": "LATAM Airlines Group",
+      "carrier_name2": "LATAM Group"
+    },
+    {
+      "carrier_code": "LE",
+      "carrier_name1": "Norwegian Air Sweden AB",
+      "carrier_name2": "Norwegian Air"
+    },
+    {
+      "carrier_code": "LF",
+      "carrier_name1": "Corporate Flight Management",
+      "carrier_name2": "Corporate Flight"
+    },
+    {
+      "carrier_code": "LG",
+      "carrier_name1": "Luxair",
+      "carrier_name2": "Luxair"
+    },
+    {
+      "carrier_code": "LH",
+      "carrier_name1": "Deutsche Lufthansa AG",
+      "carrier_name2": "Lufthansa"
+    },
+    {
+      "carrier_code": "LI",
+      "carrier_name1": "Liat (1974) Ltd",
+      "carrier_name2": "Liat Ltd"
+    },
+    {
+      "carrier_code": "LJ",
+      "carrier_name1": "Jin Air Co Ltd",
+      "carrier_name2": "Jin Air"
+    },
+    {
+      "carrier_code": "LK",
+      "carrier_name1": "Lao Skyway",
+      "carrier_name2": "Lao Skyway"
+    },
+    {
+      "carrier_code": "LM",
+      "carrier_name1": "Loganair",
+      "carrier_name2": "Loganair"
+    },
+    {
+      "carrier_code": "LN",
+      "carrier_name1": "Libyan Airlines",
+      "carrier_name2": "Libyan Airlines"
+    },
+    {
+      "carrier_code": "LO",
+      "carrier_name1": "LOT Polish Airlines",
+      "carrier_name2": "LOT Polish"
+    },
+    {
+      "carrier_code": "LP",
+      "carrier_name1": "LATAM Airlines Peru",
+      "carrier_name2": "LATAM Peru"
+    },
+    {
+      "carrier_code": "LQ",
+      "carrier_name1": "Lanmei Airlines",
+      "carrier_name2": "Lanmei Airlines"
+    },
+    {
+      "carrier_code": "LR",
+      "carrier_name1": "Avianca Costa Rica S.A.",
+      "carrier_name2": "Avianca CR"
+    },
+    {
+      "carrier_code": "LS",
+      "carrier_name1": "Jet2.com Limited",
+      "carrier_name2": "Jet2.com"
+    },
+    {
+      "carrier_code": "LT",
+      "carrier_name1": "LongJiang Airlines",
+      "carrier_name2": "LongJiang"
+    },
+    {
+      "carrier_code": "LU",
+      "carrier_name1": "Transporte Aereo S.A",
+      "carrier_name2": "Transporte Aereo"
+    },
+    {
+      "carrier_code": "LV",
+      "carrier_name1": "Openskies",
+      "carrier_name2": "Openskies"
+    },
+    {
+      "carrier_code": "LX",
+      "carrier_name1": "Swiss International Air Lines",
+      "carrier_name2": "Swiss"
+    },
+    {
+      "carrier_code": "LY",
+      "carrier_name1": "El Al Israel Airlines",
+      "carrier_name2": "El Al Israel"
+    },
+    {
+      "carrier_code": "M0",
+      "carrier_name1": "Aero Mongolia",
+      "carrier_name2": "Aero Mongolia"
+    },
+    {
+      "carrier_code": "M2",
+      "carrier_name1": "Mahfooz Aviation (Gambia) Ltd.",
+      "carrier_name2": "Mahfooz"
+    },
+    {
+      "carrier_code": "M4",
+      "carrier_name1": "Mistral Air",
+      "carrier_name2": "Mistral Air"
+    },
+    {
+      "carrier_code": "M5",
+      "carrier_name1": "Kenmore Air",
+      "carrier_name2": "Kenmore Air"
+    },
+    {
+      "carrier_code": "M8",
+      "carrier_name1": "Magnum Air Inc",
+      "carrier_name2": "Skyjet"
+    },
+    {
+      "carrier_code": "M9",
+      "carrier_name1": "Motor Sich JSC",
+      "carrier_name2": "Motor Sich"
+    },
+    {
+      "carrier_code": "MD",
+      "carrier_name1": "Air Madagascar",
+      "carrier_name2": "Air Madagascar"
+    },
+    {
+      "carrier_code": "ME",
+      "carrier_name1": "Middle East Airlines Airliban",
+      "carrier_name2": "Middle East"
+    },
+    {
+      "carrier_code": "MF",
+      "carrier_name1": "Xiamen Airlines",
+      "carrier_name2": "Xiamen Airlines"
+    },
+    {
+      "carrier_code": "MG",
+      "carrier_name1": "EZNIS AIRWAYS LLC",
+      "carrier_name2": "EZNIS AIRWAYS"
+    },
+    {
+      "carrier_code": "MH",
+      "carrier_name1": "Malaysia Airlines Berhad",
+      "carrier_name2": "Malaysia Airline"
+    },
+    {
+      "carrier_code": "MI",
+      "carrier_name1": "SilkAir (Singapore) Pty Ltd",
+      "carrier_name2": "SilkAir"
+    },
+    {
+      "carrier_code": "MJ",
+      "carrier_name1": "Myway Airlines Co.,LTD",
+      "carrier_name2": "Myway Airlines"
+    },
+    {
+      "carrier_code": "MK",
+      "carrier_name1": "Air Mauritius",
+      "carrier_name2": "Air Mauritius"
+    },
+    {
+      "carrier_code": "ML",
+      "carrier_name1": "Air Mediterranee",
+      "carrier_name2": "Air Mediterranee"
+    },
+    {
+      "carrier_code": "MM",
+      "carrier_name1": "Peach Aviation Ltd",
+      "carrier_name2": "Peach Aviation"
+    },
+    {
+      "carrier_code": "MN",
+      "carrier_name1": "Comair Ltd",
+      "carrier_name2": "Comair"
+    },
+    {
+      "carrier_code": "MO",
+      "carrier_name1": "Calm Air International Ltd",
+      "carrier_name2": "Calm Air Intl"
+    },
+    {
+      "carrier_code": "MP",
+      "carrier_name1": "Martinair Holland N.V",
+      "carrier_name2": "Martinair"
+    },
+    {
+      "carrier_code": "MQ",
+      "carrier_name1": "Envoy Air Inc",
+      "carrier_name2": "Envoy Air Inc"
+    },
+    {
+      "carrier_code": "MS",
+      "carrier_name1": "Egyptair",
+      "carrier_name2": "Egyptair"
+    },
+    {
+      "carrier_code": "MT",
+      "carrier_name1": "Thomas Cook Airlines Limited",
+      "carrier_name2": "Thomas Cook Air"
+    },
+    {
+      "carrier_code": "MU",
+      "carrier_name1": "China Eastern Airlines",
+      "carrier_name2": "China Eastern"
+    },
+    {
+      "carrier_code": "MV",
+      "carrier_name1": "Air Mediterranean",
+      "carrier_name2": "Air Mediterranea"
+    },
+    {
+      "carrier_code": "MW",
+      "carrier_name1": "Mokulele Flight Services",
+      "carrier_name2": "Mokulele Airline"
+    },
+    {
+      "carrier_code": "MZ",
+      "carrier_name1": "Amakusa Airlines",
+      "carrier_name2": "Amakusa Airlines"
+    },
+    {
+      "carrier_code": "N2",
+      "carrier_name1": "Dagestan Airlines",
+      "carrier_name2": "Dagestan Air"
+    },
+    {
+      "carrier_code": "N4",
+      "carrier_name1": "LLC Nord Wind",
+      "carrier_name2": "Nord Wind"
+    },
+    {
+      "carrier_code": "N5",
+      "carrier_name1": "Nolinor Aviation",
+      "carrier_name2": "Nolinor Aviation"
+    },
+    {
+      "carrier_code": "N6",
+      "carrier_name1": "Nuevo Continente S.A.",
+      "carrier_name2": "Nuevo Continente"
+    },
+    {
+      "carrier_code": "N7",
+      "carrier_name1": "Nordic Regional Airlines",
+      "carrier_name2": "Nordic Regional"
+    },
+    {
+      "carrier_code": "N8",
+      "carrier_name1": "National Air Cargo Group Inc",
+      "carrier_name2": "National Air"
+    },
+    {
+      "carrier_code": "N9",
+      "carrier_name1": "Shree Airlines",
+      "carrier_name2": "Shree Airlines"
+    },
+    {
+      "carrier_code": "NA",
+      "carrier_name1": "Nesma Airlines Company Ltd",
+      "carrier_name2": "Nesma Airlines"
+    },
+    {
+      "carrier_code": "NB",
+      "carrier_name1": "Skypower Express Airways",
+      "carrier_name2": "Skypower Express"
+    },
+    {
+      "carrier_code": "NE",
+      "carrier_name1": "Nesma Airlines",
+      "carrier_name2": "Nesma Airlines"
+    },
+    {
+      "carrier_code": "NF",
+      "carrier_name1": "Air Vanuatu (Operations) Limited",
+      "carrier_name2": "Air Vanuatu"
+    },
+    {
+      "carrier_code": "NG",
+      "carrier_name1": "Al Naser Wings",
+      "carrier_name2": "Al Naser"
+    },
+    {
+      "carrier_code": "NH",
+      "carrier_name1": "All Nippon Airways Co Ltd",
+      "carrier_name2": "All Nippon"
+    },
+    {
+      "carrier_code": "NI",
+      "carrier_name1": "Portugalia Airlines",
+      "carrier_name2": "Portugalia Air"
+    },
+    {
+      "carrier_code": "NJ",
+      "carrier_name1": "Niger Airways",
+      "carrier_name2": "Niger Airways"
+    },
+    {
+      "carrier_code": "NK",
+      "carrier_name1": "Spirit Airlines",
+      "carrier_name2": "Spirit Airlines"
+    },
+    {
+      "carrier_code": "NO",
+      "carrier_name1": "Neos",
+      "carrier_name2": "Neos"
+    },
+    {
+      "carrier_code": "NP",
+      "carrier_name1": "Nile Air",
+      "carrier_name2": "Nile Air"
+    },
+    {
+      "carrier_code": "NQ",
+      "carrier_name1": "Air Japan Company Ltd",
+      "carrier_name2": "Air Japan"
+    },
+    {
+      "carrier_code": "NS",
+      "carrier_name1": "Hebei Airlines",
+      "carrier_name2": "Hebei Airlines"
+    },
+    {
+      "carrier_code": "NT",
+      "carrier_name1": "Binter Canarias",
+      "carrier_name2": "Binter Canarias"
+    },
+    {
+      "carrier_code": "NU",
+      "carrier_name1": "Japan Transocean Air Co Ltd",
+      "carrier_name2": "Japan Trans Air"
+    },
+    {
+      "carrier_code": "NV",
+      "carrier_name1": "Air Central",
+      "carrier_name2": "Air Central"
+    },
+    {
+      "carrier_code": "NX",
+      "carrier_name1": "Air Macau Company Limited",
+      "carrier_name2": "Air Macau"
+    },
+    {
+      "carrier_code": "NY",
+      "carrier_name1": "Air Iceland Connect",
+      "carrier_name2": "Air Iceland Cnct"
+    },
+    {
+      "carrier_code": "NZ",
+      "carrier_name1": "Air New Zealand",
+      "carrier_name2": "Air New Zealand"
+    },
+    {
+      "carrier_code": "O2",
+      "carrier_name1": "Linear Air",
+      "carrier_name2": "Linear Air"
+    },
+    {
+      "carrier_code": "O5",
+      "carrier_name1": "Comores Aviation",
+      "carrier_name2": "Comores Aviation"
+    },
+    {
+      "carrier_code": "O6",
+      "carrier_name1": "Avianca Brazil",
+      "carrier_name2": "Avianca Brazil"
+    },
+    {
+      "carrier_code": "O7",
+      "carrier_name1": "OzJet Airlines",
+      "carrier_name2": "OzJet"
+    },
+    {
+      "carrier_code": "O8",
+      "carrier_name1": "SNCF C6",
+      "carrier_name2": "SNCF C6"
+    },
+    {
+      "carrier_code": "OA",
+      "carrier_name1": "Olympic Air",
+      "carrier_name2": "Olympic Air"
+    },
+    {
+      "carrier_code": "OB",
+      "carrier_name1": "Boliviana De Aviacion BOA",
+      "carrier_name2": "Boliviana"
+    },
+    {
+      "carrier_code": "OC",
+      "carrier_name1": "Oriental Air Bridge Co Ltd",
+      "carrier_name2": "Oriental Air"
+    },
+    {
+      "carrier_code": "OD",
+      "carrier_name1": "Malindo Airways",
+      "carrier_name2": "Malindo Airways"
+    },
+    {
+      "carrier_code": "OE",
+      "carrier_name1": "LAUDAMOTION  GMBH",
+      "carrier_name2": "LAUDAMOTION GMBH"
+    },
+    {
+      "carrier_code": "OF",
+      "carrier_name1": "Overland Airways",
+      "carrier_name2": "Overland Airways"
+    },
+    {
+      "carrier_code": "OH",
+      "carrier_name1": "PSA Airlines Inc",
+      "carrier_name2": "PSA Airlines"
+    },
+    {
+      "carrier_code": "OJ",
+      "carrier_name1": "Fly Jamaica Airways",
+      "carrier_name2": "Fly Jamaica Air"
+    },
+    {
+      "carrier_code": "OK",
+      "carrier_name1": "Czech Airlines",
+      "carrier_name2": "Czech Airlines"
+    },
+    {
+      "carrier_code": "OL",
+      "carrier_name1": "Polynesian Ltd. dba Samoa Airways",
+      "carrier_name2": "Samoa Airways"
+    },
+    {
+      "carrier_code": "OM",
+      "carrier_name1": "MIAT - Mongolian Airlines",
+      "carrier_name2": "Mongolian"
+    },
+    {
+      "carrier_code": "ON",
+      "carrier_name1": "Nauru Airlines",
+      "carrier_name2": "Nauru Airlines"
+    },
+    {
+      "carrier_code": "OO",
+      "carrier_name1": "Skywest Airlines",
+      "carrier_name2": "Skywest"
+    },
+    {
+      "carrier_code": "OP",
+      "carrier_name1": "Dac International Airlines",
+      "carrier_name2": "Dac Int Airlines"
+    },
+    {
+      "carrier_code": "OQ",
+      "carrier_name1": "Chongqing Airlines",
+      "carrier_name2": "Chongqing Air"
+    },
+    {
+      "carrier_code": "OR",
+      "carrier_name1": "TUI fly Netherlands",
+      "carrier_name2": "TUI fly"
+    },
+    {
+      "carrier_code": "OS",
+      "carrier_name1": "Austrian Airlines",
+      "carrier_name2": "Austrian Airline"
+    },
+    {
+      "carrier_code": "OU",
+      "carrier_name1": "Croatia Airlines",
+      "carrier_name2": "Croatia Airlines"
+    },
+    {
+      "carrier_code": "OV",
+      "carrier_name1": "SalamAir",
+      "carrier_name2": "SalamAir"
+    },
+    {
+      "carrier_code": "OW",
+      "carrier_name1": "Skyward Express",
+      "carrier_name2": "Skyward Express"
+    },
+    {
+      "carrier_code": "OY",
+      "carrier_name1": "Andes Lineas Aeras SA",
+      "carrier_name2": "Andes Lineas"
+    },
+    {
+      "carrier_code": "OZ",
+      "carrier_name1": "Asiana Airlines Inc",
+      "carrier_name2": "Asiana Airlines"
+    },
+    {
+      "carrier_code": "P0",
+      "carrier_name1": "Proflight Commuter Services Ltd",
+      "carrier_name2": "Proflight"
+    },
+    {
+      "carrier_code": "P2",
+      "carrier_name1": "AirKenya Express",
+      "carrier_name2": "AirKenya Express"
+    },
+    {
+      "carrier_code": "P4",
+      "carrier_name1": "Air Peace",
+      "carrier_name2": "Air Peace"
+    },
+    {
+      "carrier_code": "P5",
+      "carrier_name1": "Aero Republica",
+      "carrier_name2": "Aero Republica"
+    },
+    {
+      "carrier_code": "P6",
+      "carrier_name1": "Pascan Aviation Inc",
+      "carrier_name2": "Pascan Aviation"
+    },
+    {
+      "carrier_code": "P8",
+      "carrier_name1": "Sprintair",
+      "carrier_name2": "Sprintair"
+    },
+    {
+      "carrier_code": "P9",
+      "carrier_name1": "Peruvian Airline S.A",
+      "carrier_name2": "Peruvian Airline"
+    },
+    {
+      "carrier_code": "PB",
+      "carrier_name1": "PAL Airlines",
+      "carrier_name2": "PAL Airlines"
+    },
+    {
+      "carrier_code": "PC",
+      "carrier_name1": "Pegasus Hava Tasimaciligi",
+      "carrier_name2": "Pegasus Airlines"
+    },
+    {
+      "carrier_code": "PD",
+      "carrier_name1": "Porter Airlines Inc",
+      "carrier_name2": "Porter Airlines"
+    },
+    {
+      "carrier_code": "PE",
+      "carrier_name1": "Altenrhein Luftfahrt",
+      "carrier_name2": "Altenrhein"
+    },
+    {
+      "carrier_code": "PG",
+      "carrier_name1": "Bangkok Airways",
+      "carrier_name2": "Bangkok Airways"
+    },
+    {
+      "carrier_code": "PJ",
+      "carrier_name1": "Air Saint-Pierre",
+      "carrier_name2": "Air Saint-Pierre"
+    },
+    {
+      "carrier_code": "PK",
+      "carrier_name1": "Pakistan International Airlines",
+      "carrier_name2": "Pakistan Air"
+    },
+    {
+      "carrier_code": "PL",
+      "carrier_name1": "Southern Air Charter",
+      "carrier_name2": "Southern Air Cht"
+    },
+    {
+      "carrier_code": "PM",
+      "carrier_name1": "Canary Fly",
+      "carrier_name2": "Canary Fly"
+    },
+    {
+      "carrier_code": "PN",
+      "carrier_name1": "China West Air Co Ltd",
+      "carrier_name2": "China West Air"
+    },
+    {
+      "carrier_code": "PO",
+      "carrier_name1": "Polar Air Cargo Worldwide Inc",
+      "carrier_name2": "Polar Air Cargo"
+    },
+    {
+      "carrier_code": "PP",
+      "carrier_name1": "Jet Aviation Business Jets AG",
+      "carrier_name2": "Jet Aviation"
+    },
+    {
+      "carrier_code": "PQ",
+      "carrier_name1": "Skyup Airlines",
+      "carrier_name2": "Skyup Airlines"
+    },
+    {
+      "carrier_code": "PR",
+      "carrier_name1": "Philippine Airlines Inc",
+      "carrier_name2": "Philippine"
+    },
+    {
+      "carrier_code": "PS",
+      "carrier_name1": "Ukraine International Airline",
+      "carrier_name2": "Ukraine Intl"
+    },
+    {
+      "carrier_code": "PT",
+      "carrier_name1": "Piedmont Airlines Inc",
+      "carrier_name2": "Piedmont Airline"
+    },
+    {
+      "carrier_code": "PU",
+      "carrier_name1": "Plus Ultra Lineas Aereas S.A.",
+      "carrier_name2": "Plus Ultra Linea"
+    },
+    {
+      "carrier_code": "PV",
+      "carrier_name1": "Saint Barth Commuter",
+      "carrier_name2": "Saint Barth"
+    },
+    {
+      "carrier_code": "PW",
+      "carrier_name1": "Precision Air Services Plc",
+      "carrier_name2": "Precision Air"
+    },
+    {
+      "carrier_code": "PX",
+      "carrier_name1": "Air Niugini",
+      "carrier_name2": "Air Niugini"
+    },
+    {
+      "carrier_code": "PY",
+      "carrier_name1": "Surinam Airways",
+      "carrier_name2": "Surinam Airways"
+    },
+    {
+      "carrier_code": "PZ",
+      "carrier_name1": "LATAM Airlines Paraguay",
+      "carrier_name2": "LATAM Paraguay"
+    },
+    {
+      "carrier_code": "Q0",
+      "carrier_name1": "Quebecair Express",
+      "carrier_name2": "Quebecair Expres"
+    },
+    {
+      "carrier_code": "Q4",
+      "carrier_name1": "Starlink Aviation",
+      "carrier_name2": "Starlink"
+    },
+    {
+      "carrier_code": "Q5",
+      "carrier_name1": "Forty Mile Air",
+      "carrier_name2": "Forty Mile Air"
+    },
+    {
+      "carrier_code": "Q8",
+      "carrier_name1": "Trans Air Congo (TAC)",
+      "carrier_name2": "Trans Air Congo"
+    },
+    {
+      "carrier_code": "QA",
+      "carrier_name1": "Cimber AS",
+      "carrier_name2": "Cimber AS"
+    },
+    {
+      "carrier_code": "QC",
+      "carrier_name1": "Cameroon Airlines Corporation",
+      "carrier_name2": "Camair Co"
+    },
+    {
+      "carrier_code": "QE",
+      "carrier_name1": "Express Freighters Australia",
+      "carrier_name2": "Express Freighte"
+    },
+    {
+      "carrier_code": "QF",
+      "carrier_name1": "Qantas Airways",
+      "carrier_name2": "Qantas Airways"
+    },
+    {
+      "carrier_code": "QG",
+      "carrier_name1": "Qualiflyer Group",
+      "carrier_name2": "Qualiflyer Group"
+    },
+    {
+      "carrier_code": "QH",
+      "carrier_name1": "Bamboo Airways",
+      "carrier_name2": "Bamboo Airways"
+    },
+    {
+      "carrier_code": "QJ",
+      "carrier_name1": "Latpass Airlines",
+      "carrier_name2": "Latpass Airlines"
+    },
+    {
+      "carrier_code": "QK",
+      "carrier_name1": "Jazz Aviation LP",
+      "carrier_name2": "Air Canada Jazz"
+    },
+    {
+      "carrier_code": "QL",
+      "carrier_name1": "Laser Airlines",
+      "carrier_name2": "Laser Airlines"
+    },
+    {
+      "carrier_code": "QM",
+      "carrier_name1": "Monacair",
+      "carrier_name2": "Monacair"
+    },
+    {
+      "carrier_code": "QN",
+      "carrier_name1": "Skytrans Airlines",
+      "carrier_name2": "Skytrans Airline"
+    },
+    {
+      "carrier_code": "QO",
+      "carrier_name1": "Origin Pacific Airways",
+      "carrier_name2": "Origin Pacific"
+    },
+    {
+      "carrier_code": "QQ",
+      "carrier_name1": "Alliance Airlines Pty Ltd",
+      "carrier_name2": "Alliance Air PTY"
+    },
+    {
+      "carrier_code": "QR",
+      "carrier_name1": "Qatar Airways (Q.C.S.C)",
+      "carrier_name2": "Qatar Airways"
+    },
+    {
+      "carrier_code": "QS",
+      "carrier_name1": "Smartwings",
+      "carrier_name2": "Smartwings"
+    },
+    {
+      "carrier_code": "QU",
+      "carrier_name1": "Utair Ukraine Airlines",
+      "carrier_name2": "Utair Ukraine"
+    },
+    {
+      "carrier_code": "QV",
+      "carrier_name1": "Lao Airlines",
+      "carrier_name2": "Lao Airlines"
+    },
+    {
+      "carrier_code": "QW",
+      "carrier_name1": "Qingdao Airline Co LTd",
+      "carrier_name2": "Qingdao Airline"
+    },
+    {
+      "carrier_code": "QX",
+      "carrier_name1": "Horizon Air Industries  Inc.",
+      "carrier_name2": "Horizon Air"
+    },
+    {
+      "carrier_code": "QY",
+      "carrier_name1": "European Air Transport",
+      "carrier_name2": "European Air"
+    },
+    {
+      "carrier_code": "R0",
+      "carrier_name1": "Tantalus Air",
+      "carrier_name2": "Tantalus Air"
+    },
+    {
+      "carrier_code": "R2",
+      "carrier_name1": "Groupe Transair S.A",
+      "carrier_name2": "Transair Senegal"
+    },
+    {
+      "carrier_code": "R3",
+      "carrier_name1": "Yakutia JSC Aircompany",
+      "carrier_name2": "Yakutia"
+    },
+    {
+      "carrier_code": "R5",
+      "carrier_name1": "Jordan Aviation",
+      "carrier_name2": "Jordan Aviation"
+    },
+    {
+      "carrier_code": "R6",
+      "carrier_name1": "DOT LT",
+      "carrier_name2": "DOT LT"
+    },
+    {
+      "carrier_code": "R7",
+      "carrier_name1": "Aserca Airlines C.A",
+      "carrier_name2": "Aserca Air"
+    },
+    {
+      "carrier_code": "RA",
+      "carrier_name1": "Nepal Airlines Corporation",
+      "carrier_name2": "Nepal Airlines"
+    },
+    {
+      "carrier_code": "RB",
+      "carrier_name1": "Syrian Arab Airlines",
+      "carrier_name2": "Syrian Arab Air"
+    },
+    {
+      "carrier_code": "RC",
+      "carrier_name1": "Atlantic Airways Faroe Islands",
+      "carrier_name2": "Atlantic Airways"
+    },
+    {
+      "carrier_code": "RE",
+      "carrier_name1": "Stobart Air",
+      "carrier_name2": "Stobart Air"
+    },
+    {
+      "carrier_code": "RF",
+      "carrier_name1": "Erofey Limited Liability Company",
+      "carrier_name2": "Erofey"
+    },
+    {
+      "carrier_code": "RI",
+      "carrier_name1": "Air Costa Rica",
+      "carrier_name2": "Air Costa Rica"
+    },
+    {
+      "carrier_code": "RJ",
+      "carrier_name1": "Royal Jordanian",
+      "carrier_name2": "Royal Jordanian"
+    },
+    {
+      "carrier_code": "RL",
+      "carrier_name1": "Royal Falcon",
+      "carrier_name2": "Royal Falcon"
+    },
+    {
+      "carrier_code": "RM",
+      "carrier_name1": "Aircompany Armenia",
+      "carrier_name2": "Airco Armenia"
+    },
+    {
+      "carrier_code": "RN",
+      "carrier_name1": "Air Pohang",
+      "carrier_name2": "Air Pohang"
+    },
+    {
+      "carrier_code": "RO",
+      "carrier_name1": "Tarom-Romanian Air Transport",
+      "carrier_name2": "Tarom-Romanian"
+    },
+    {
+      "carrier_code": "RP",
+      "carrier_name1": "BASe Airlines",
+      "carrier_name2": "BASe Airlines"
+    },
+    {
+      "carrier_code": "RQ",
+      "carrier_name1": "Kam Air",
+      "carrier_name2": "Kam Air"
+    },
+    {
+      "carrier_code": "RS",
+      "carrier_name1": "Air Seoul",
+      "carrier_name2": "Air Seoul"
+    },
+    {
+      "carrier_code": "RT",
+      "carrier_name1": "UVT Aero",
+      "carrier_name2": "UVT Aero"
+    },
+    {
+      "carrier_code": "RV",
+      "carrier_name1": "Air Canada Rouge",
+      "carrier_name2": "Air Canada Rouge"
+    },
+    {
+      "carrier_code": "RW",
+      "carrier_name1": "Royal Air Charter Services Inc",
+      "carrier_name2": "Royal Air"
+    },
+    {
+      "carrier_code": "RY",
+      "carrier_name1": "Royal Wings",
+      "carrier_name2": "Royal Wings"
+    },
+    {
+      "carrier_code": "RZ",
+      "carrier_name1": "Sansa Airlines",
+      "carrier_name2": "Sansa Airlines"
+    },
+    {
+      "carrier_code": "S0",
+      "carrier_name1": "Aerolineas Sosa S.A de C.V.",
+      "carrier_name2": "Aero Lineas Sosa"
+    },
+    {
+      "carrier_code": "S2",
+      "carrier_name1": "JetKonnect",
+      "carrier_name2": "JetKonnect"
+    },
+    {
+      "carrier_code": "S4",
+      "carrier_name1": "SATA International Azores Airlines",
+      "carrier_name2": "SATA Intl"
+    },
+    {
+      "carrier_code": "S5",
+      "carrier_name1": "Shuttle America",
+      "carrier_name2": "Shuttle America"
+    },
+    {
+      "carrier_code": "S6",
+      "carrier_name1": "Sunrise Airways",
+      "carrier_name2": "Sunrise Airways"
+    },
+    {
+      "carrier_code": "S7",
+      "carrier_name1": "Siberia Airlines",
+      "carrier_name2": "Siberia Air"
+    },
+    {
+      "carrier_code": "S8",
+      "carrier_name1": "Sounds Air",
+      "carrier_name2": "Sounds Air"
+    },
+    {
+      "carrier_code": "SA",
+      "carrier_name1": "South African Airways",
+      "carrier_name2": "South African"
+    },
+    {
+      "carrier_code": "SB",
+      "carrier_name1": "Air Caledonie International",
+      "carrier_name2": "Air Calin"
+    },
+    {
+      "carrier_code": "SC",
+      "carrier_name1": "Shandong Airlines",
+      "carrier_name2": "Shandong"
+    },
+    {
+      "carrier_code": "SD",
+      "carrier_name1": "Sudan Airways Co Ltd",
+      "carrier_name2": "Sudan Airways"
+    },
+    {
+      "carrier_code": "SE",
+      "carrier_name1": "XL Airways France",
+      "carrier_name2": "XL Airways"
+    },
+    {
+      "carrier_code": "SF",
+      "carrier_name1": "Tassili Airlines",
+      "carrier_name2": "Tassili Air"
+    },
+    {
+      "carrier_code": "SG",
+      "carrier_name1": "SpiceJet Ltd",
+      "carrier_name2": "Spice Jet"
+    },
+    {
+      "carrier_code": "SH",
+      "carrier_name1": "Sharp Aviation Pty. Ltd. ta Sharp",
+      "carrier_name2": "Sharp Airlines"
+    },
+    {
+      "carrier_code": "SI",
+      "carrier_name1": "Blue Islands Limited",
+      "carrier_name2": "Blue Island"
+    },
+    {
+      "carrier_code": "SJ",
+      "carrier_name1": "PT Sriwijaya Air",
+      "carrier_name2": "Sriwijaya Air"
+    },
+    {
+      "carrier_code": "SK",
+      "carrier_name1": "SAS Scandinavian Airlines",
+      "carrier_name2": "SAS"
+    },
+    {
+      "carrier_code": "SL",
+      "carrier_name1": "Thai Lion Mentari",
+      "carrier_name2": "Thai Lion"
+    },
+    {
+      "carrier_code": "SM",
+      "carrier_name1": "Air Cairo",
+      "carrier_name2": "Air Cairo"
+    },
+    {
+      "carrier_code": "SN",
+      "carrier_name1": "Brussels Airlines",
+      "carrier_name2": "Brussels Airline"
+    },
+    {
+      "carrier_code": "SO",
+      "carrier_name1": "APEX Airlines Myanmar",
+      "carrier_name2": "APEX Airlines"
+    },
+    {
+      "carrier_code": "SP",
+      "carrier_name1": "SATA Air Acores",
+      "carrier_name2": "SATA Air Acores"
+    },
+    {
+      "carrier_code": "SQ",
+      "carrier_name1": "Singapore Airlines",
+      "carrier_name2": "Singapore Airl"
+    },
+    {
+      "carrier_code": "SR",
+      "carrier_name1": "SundAir GmbH",
+      "carrier_name2": "SundAir"
+    },
+    {
+      "carrier_code": "SS",
+      "carrier_name1": "Corsair",
+      "carrier_name2": "Corsair"
+    },
+    {
+      "carrier_code": "ST",
+      "carrier_name1": "Germania Fluggesellschaft MBH",
+      "carrier_name2": "Germania"
+    },
+    {
+      "carrier_code": "SU",
+      "carrier_name1": "Aeroflot Russian Airlines",
+      "carrier_name2": "Aeroflot"
+    },
+    {
+      "carrier_code": "SV",
+      "carrier_name1": "Saudi Arabian Airlines",
+      "carrier_name2": "Saudi Arabian"
+    },
+    {
+      "carrier_code": "SW",
+      "carrier_name1": "Air Namibia",
+      "carrier_name2": "Air Namibia"
+    },
+    {
+      "carrier_code": "SY",
+      "carrier_name1": "Sun Country Airlines",
+      "carrier_name2": "Sun Country"
+    },
+    {
+      "carrier_code": "SZ",
+      "carrier_name1": "Air Company Somon Air",
+      "carrier_name2": "Somon Air"
+    },
+    {
+      "carrier_code": "T0",
+      "carrier_name1": "Avianca Peru S.A.",
+      "carrier_name2": "Avianca Peru S.A"
+    },
+    {
+      "carrier_code": "T2",
+      "carrier_name1": "Fly Art",
+      "carrier_name2": "Fly Art"
+    },
+    {
+      "carrier_code": "T5",
+      "carrier_name1": "Turkmenistan Airlines",
+      "carrier_name2": "Turkmenistan"
+    },
+    {
+      "carrier_code": "T6",
+      "carrier_name1": "AirSWIFT",
+      "carrier_name2": "AirSWIFT"
+    },
+    {
+      "carrier_code": "T7",
+      "carrier_name1": "Twin Jet",
+      "carrier_name2": "Twin Jet"
+    },
+    {
+      "carrier_code": "T8",
+      "carrier_name1": "STA Trans African Airlines",
+      "carrier_name2": "Tran African Air"
+    },
+    {
+      "carrier_code": "T9",
+      "carrier_name1": "Turpial Airlines",
+      "carrier_name2": "Turpial Airlines"
+    },
+    {
+      "carrier_code": "TA",
+      "carrier_name1": "Taca International Airlines S.A",
+      "carrier_name2": "Taca Intl"
+    },
+    {
+      "carrier_code": "TB",
+      "carrier_name1": "TUI Fly Belgium",
+      "carrier_name2": "TUI Fly Belgium"
+    },
+    {
+      "carrier_code": "TC",
+      "carrier_name1": "Air Tanzania Company Ltd",
+      "carrier_name2": "Air Tanzania"
+    },
+    {
+      "carrier_code": "TD",
+      "carrier_name1": "Atlantis Armenian Airlines",
+      "carrier_name2": "Atlantis Armenia"
+    },
+    {
+      "carrier_code": "TF",
+      "carrier_name1": "Braathens Regional Aviation",
+      "carrier_name2": "BRA Sverige AB"
+    },
+    {
+      "carrier_code": "TG",
+      "carrier_name1": "Thai Airways Intl Public Co Ltd",
+      "carrier_name2": "Thai Intl"
+    },
+    {
+      "carrier_code": "TH",
+      "carrier_name1": "British Airways Citiexpress",
+      "carrier_name2": "British Citiexpr"
+    },
+    {
+      "carrier_code": "TI",
+      "carrier_name1": "Tropic Ocean Airways",
+      "carrier_name2": "Tropic Ocean"
+    },
+    {
+      "carrier_code": "TJ",
+      "carrier_name1": "Tradewind Aviation",
+      "carrier_name2": "Tradewind"
+    },
+    {
+      "carrier_code": "TK",
+      "carrier_name1": "Turkish Airlines Inc",
+      "carrier_name2": "Turkish Airlines"
+    },
+    {
+      "carrier_code": "TL",
+      "carrier_name1": "AirNorth Regional",
+      "carrier_name2": "AirNorth"
+    },
+    {
+      "carrier_code": "TM",
+      "carrier_name1": "LAM Lineas Aereas de Mocambique",
+      "carrier_name2": "LAM"
+    },
+    {
+      "carrier_code": "TN",
+      "carrier_name1": "Air Tahiti Nui",
+      "carrier_name2": "Air Tahiti Nui"
+    },
+    {
+      "carrier_code": "TO",
+      "carrier_name1": "Transavia France",
+      "carrier_name2": "Transavia FR"
+    },
+    {
+      "carrier_code": "TP",
+      "carrier_name1": "TAP Air Portugal",
+      "carrier_name2": "Air Portugal"
+    },
+    {
+      "carrier_code": "TQ",
+      "carrier_name1": "Tandem Aero Ltd",
+      "carrier_name2": "Tandem Aero"
+    },
+    {
+      "carrier_code": "TR",
+      "carrier_name1": "Scoot Tigerair PTE LTD",
+      "carrier_name2": "Scoot"
+    },
+    {
+      "carrier_code": "TS",
+      "carrier_name1": "Air Transat",
+      "carrier_name2": "Air Transat"
+    },
+    {
+      "carrier_code": "TT",
+      "carrier_name1": "Tigerair Australia",
+      "carrier_name2": "Tigerair AU"
+    },
+    {
+      "carrier_code": "TU",
+      "carrier_name1": "Tunis Air",
+      "carrier_name2": "Tunis Air"
+    },
+    {
+      "carrier_code": "TV",
+      "carrier_name1": "Tibet Airlines",
+      "carrier_name2": "Tibet Airlines"
+    },
+    {
+      "carrier_code": "TW",
+      "carrier_name1": "T Way Air Co",
+      "carrier_name2": "T Way Air Co"
+    },
+    {
+      "carrier_code": "TX",
+      "carrier_name1": "Air Caraibes",
+      "carrier_name2": "Air Caraibes"
+    },
+    {
+      "carrier_code": "TY",
+      "carrier_name1": "Air Caledonie",
+      "carrier_name2": "Air Caledonie"
+    },
+    {
+      "carrier_code": "TZ",
+      "carrier_name1": "Tsaradia",
+      "carrier_name2": "Tsaradia"
+    },
+    {
+      "carrier_code": "U2",
+      "carrier_name1": "Easyjet Airline Company Limited",
+      "carrier_name2": "Easyjet"
+    },
+    {
+      "carrier_code": "U3",
+      "carrier_name1": "Air Company Sky Gates Airlines",
+      "carrier_name2": "Sky Gates Airlin"
+    },
+    {
+      "carrier_code": "U4",
+      "carrier_name1": "Buddha Air",
+      "carrier_name2": "Buddha Air"
+    },
+    {
+      "carrier_code": "U5",
+      "carrier_name1": "Karinou Airlines",
+      "carrier_name2": "Karinou Airlines"
+    },
+    {
+      "carrier_code": "U6",
+      "carrier_name1": "JSC Ural Airlines",
+      "carrier_name2": "Ural Airlines"
+    },
+    {
+      "carrier_code": "U7",
+      "carrier_name1": "Air Uganda",
+      "carrier_name2": "Air Uganda"
+    },
+    {
+      "carrier_code": "U8",
+      "carrier_name1": "TUS Airways Ltd",
+      "carrier_name2": "TUS Airways"
+    },
+    {
+      "carrier_code": "UA",
+      "carrier_name1": "United Airlines Inc",
+      "carrier_name2": "United"
+    },
+    {
+      "carrier_code": "UB",
+      "carrier_name1": "Myanmar National Airways",
+      "carrier_name2": "Myanmar Airways"
+    },
+    {
+      "carrier_code": "UC",
+      "carrier_name1": "LATAM Cargo Chile",
+      "carrier_name2": "LATAM Chile"
+    },
+    {
+      "carrier_code": "UE",
+      "carrier_name1": "BizAir op by Ultimate JetCharters",
+      "carrier_name2": "BizAir"
+    },
+    {
+      "carrier_code": "UF",
+      "carrier_name1": "Petroleum Air Services",
+      "carrier_name2": "Petroleum Air"
+    },
+    {
+      "carrier_code": "UG",
+      "carrier_name1": "Tunisair Express",
+      "carrier_name2": "Tunisair Express"
+    },
+    {
+      "carrier_code": "UH",
+      "carrier_name1": "Aircompany Atlasjet Ukraine LLC",
+      "carrier_name2": "Atlasjet"
+    },
+    {
+      "carrier_code": "UI",
+      "carrier_name1": "Eurocypria Airlines",
+      "carrier_name2": "Eurocypria Air"
+    },
+    {
+      "carrier_code": "UJ",
+      "carrier_name1": "Almasria Universal Airlines",
+      "carrier_name2": "Almasria Airline"
+    },
+    {
+      "carrier_code": "UK",
+      "carrier_name1": "Vistara",
+      "carrier_name2": "Vistara"
+    },
+    {
+      "carrier_code": "UL",
+      "carrier_name1": "SriLankan Airlines",
+      "carrier_name2": "SriLankan"
+    },
+    {
+      "carrier_code": "UM",
+      "carrier_name1": "Air Zimbabwe (PVT) Ltd",
+      "carrier_name2": "Air Zimbabwe"
+    },
+    {
+      "carrier_code": "UO",
+      "carrier_name1": "Hong Kong Express Airways Ltd",
+      "carrier_name2": "Hong Kong Expres"
+    },
+    {
+      "carrier_code": "UP",
+      "carrier_name1": "Bahamasair Holdings Ltd",
+      "carrier_name2": "Bahamasair"
+    },
+    {
+      "carrier_code": "UQ",
+      "carrier_name1": "Urumqi Airlines",
+      "carrier_name2": "Urumqi Airlines"
+    },
+    {
+      "carrier_code": "UR",
+      "carrier_name1": "Utair Express",
+      "carrier_name2": "Utair Express"
+    },
+    {
+      "carrier_code": "UT",
+      "carrier_name1": "UTAir Aviation JSC",
+      "carrier_name2": "UTAir"
+    },
+    {
+      "carrier_code": "UU",
+      "carrier_name1": "Air Austral",
+      "carrier_name2": "Air Austral"
+    },
+    {
+      "carrier_code": "UW",
+      "carrier_name1": "Universal Airlines Inc",
+      "carrier_name2": "Universal"
+    },
+    {
+      "carrier_code": "UX",
+      "carrier_name1": "Air Europa Lineas Aereas S.A",
+      "carrier_name2": "Air Europa"
+    },
+    {
+      "carrier_code": "UY",
+      "carrier_name1": "Sky Pearl",
+      "carrier_name2": "Sky Pearl"
+    },
+    {
+      "carrier_code": "UZ",
+      "carrier_name1": "Buraq Air transport",
+      "carrier_name2": "Buraq Air"
+    },
+    {
+      "carrier_code": "V0",
+      "carrier_name1": "Conviasa",
+      "carrier_name2": "Conviasa"
+    },
+    {
+      "carrier_code": "V3",
+      "carrier_name1": "Carpatair S.A",
+      "carrier_name2": "Carpatair"
+    },
+    {
+      "carrier_code": "V5",
+      "carrier_name1": "Aerovias DAP S.A",
+      "carrier_name2": "Aerovias"
+    },
+    {
+      "carrier_code": "V6",
+      "carrier_name1": "VI Airlink",
+      "carrier_name2": "VI Airlink"
+    },
+    {
+      "carrier_code": "V7",
+      "carrier_name1": "Volotea Airlines S.L",
+      "carrier_name2": "Volotea"
+    },
+    {
+      "carrier_code": "V8",
+      "carrier_name1": "Iliamna Air Taxi Inc",
+      "carrier_name2": "Iliamna Air Taxi"
+    },
+    {
+      "carrier_code": "V9",
+      "carrier_name1": "CityWing",
+      "carrier_name2": "CityWing"
+    },
+    {
+      "carrier_code": "VA",
+      "carrier_name1": "Virgin Australia",
+      "carrier_name2": "Virgin AU"
+    },
+    {
+      "carrier_code": "VB",
+      "carrier_name1": "Aeroenlaces Nacionales S.A. De C.V.",
+      "carrier_name2": "Vivaaerobus"
+    },
+    {
+      "carrier_code": "VC",
+      "carrier_name1": "ViaAir",
+      "carrier_name2": "ViaAir"
+    },
+    {
+      "carrier_code": "VF",
+      "carrier_name1": "FlyViking",
+      "carrier_name2": "FlyViking"
+    },
+    {
+      "carrier_code": "VI",
+      "carrier_name1": "Volga-Dnepr Airline Joint Stock",
+      "carrier_name2": "Volga Airlines"
+    },
+    {
+      "carrier_code": "VJ",
+      "carrier_name1": "Vietjet Aviation",
+      "carrier_name2": "Vietjet Aviation"
+    },
+    {
+      "carrier_code": "VK",
+      "carrier_name1": "LEVEL operated by Anisec Luftfahrt",
+      "carrier_name2": "LEVEL Anisec"
+    },
+    {
+      "carrier_code": "VL",
+      "carrier_name1": "Med-View Airline",
+      "carrier_name2": "Med-View Airline"
+    },
+    {
+      "carrier_code": "VM",
+      "carrier_name1": "Max Air",
+      "carrier_name2": "Max Air"
+    },
+    {
+      "carrier_code": "VN",
+      "carrier_name1": "Vietnam Airlines Corporation",
+      "carrier_name2": "Vietnam Air"
+    },
+    {
+      "carrier_code": "VQ",
+      "carrier_name1": "Novo Air",
+      "carrier_name2": "Novo Air"
+    },
+    {
+      "carrier_code": "VR",
+      "carrier_name1": "Transportes Aereos de Cabo Verde",
+      "carrier_name2": "TACV Cabo Verde"
+    },
+    {
+      "carrier_code": "VS",
+      "carrier_name1": "Virgin Atlantic Airways Ltd.",
+      "carrier_name2": "Virgin Atlantic"
+    },
+    {
+      "carrier_code": "VT",
+      "carrier_name1": "Air Tahiti",
+      "carrier_name2": "Air Tahiti"
+    },
+    {
+      "carrier_code": "VU",
+      "carrier_name1": "VECA Airline",
+      "carrier_name2": "VECA Airline"
+    },
+    {
+      "carrier_code": "VV",
+      "carrier_name1": "Viva Air Peru",
+      "carrier_name2": "Viva Air Peru"
+    },
+    {
+      "carrier_code": "VW",
+      "carrier_name1": "Transportes Aeromar S.A. de C.V.",
+      "carrier_name2": "Aeromar"
+    },
+    {
+      "carrier_code": "VX",
+      "carrier_name1": "Virgin America Inc",
+      "carrier_name2": "Virgin America"
+    },
+    {
+      "carrier_code": "VY",
+      "carrier_name1": "Vueling Airlines S.A",
+      "carrier_name2": "Vueling Airlines"
+    },
+    {
+      "carrier_code": "VZ",
+      "carrier_name1": "Thai Vietjet Air",
+      "carrier_name2": "Vietjet Air"
+    },
+    {
+      "carrier_code": "W2",
+      "carrier_name1": "FlexFlight ApS",
+      "carrier_name2": "FlexFlight ApS"
+    },
+    {
+      "carrier_code": "W3",
+      "carrier_name1": "Arik Air",
+      "carrier_name2": "Arik Air"
+    },
+    {
+      "carrier_code": "W5",
+      "carrier_name1": "Mahan Air",
+      "carrier_name2": "Mahan Air"
+    },
+    {
+      "carrier_code": "W6",
+      "carrier_name1": "Wizz Air Hungary",
+      "carrier_name2": "Wizz Air HU"
+    },
+    {
+      "carrier_code": "W7",
+      "carrier_name1": "Wings of Lebanon S.A.L",
+      "carrier_name2": "Wings of Lebanon"
+    },
+    {
+      "carrier_code": "W9",
+      "carrier_name1": "Wizz Air UK",
+      "carrier_name2": "Wizz Air UK"
+    },
+    {
+      "carrier_code": "WA",
+      "carrier_name1": "KLM Cityhopper B V",
+      "carrier_name2": "KLM Cityhopper"
+    },
+    {
+      "carrier_code": "WB",
+      "carrier_name1": "Rwandair Express",
+      "carrier_name2": "Rwandair Express"
+    },
+    {
+      "carrier_code": "WE",
+      "carrier_name1": "Thai Smile Airways",
+      "carrier_name2": "Thai Smile"
+    },
+    {
+      "carrier_code": "WF",
+      "carrier_name1": "Wideroes Flyveselskap A.S",
+      "carrier_name2": "Wideroes Flyvese"
+    },
+    {
+      "carrier_code": "WG",
+      "carrier_name1": "Sunwing Airlines",
+      "carrier_name2": "Sunwing"
+    },
+    {
+      "carrier_code": "WH",
+      "carrier_name1": "Westair Benin",
+      "carrier_name2": "Westair Benin"
+    },
+    {
+      "carrier_code": "WI",
+      "carrier_name1": "White Airways S.A.",
+      "carrier_name2": "White Airways"
+    },
+    {
+      "carrier_code": "WJ",
+      "carrier_name1": "Jetsmart Airlines S.S",
+      "carrier_name2": "Jetsmart"
+    },
+    {
+      "carrier_code": "WK",
+      "carrier_name1": "Edelweiss Air AG",
+      "carrier_name2": "Edelweiss Air"
+    },
+    {
+      "carrier_code": "WM",
+      "carrier_name1": "Windward Island Airways",
+      "carrier_name2": "Windward Island"
+    },
+    {
+      "carrier_code": "WN",
+      "carrier_name1": "Southwest Airlines",
+      "carrier_name2": "Southwest"
+    },
+    {
+      "carrier_code": "WR",
+      "carrier_name1": "Westjet Encore",
+      "carrier_name2": "Westjet Encore"
+    },
+    {
+      "carrier_code": "WS",
+      "carrier_name1": "WestJet",
+      "carrier_name2": "WestJet"
+    },
+    {
+      "carrier_code": "WT",
+      "carrier_name1": "Wasaya Airways",
+      "carrier_name2": "Wasaya Airways"
+    },
+    {
+      "carrier_code": "WU",
+      "carrier_name1": "Jetways Airlines Limited",
+      "carrier_name2": "Jetways Airlines"
+    },
+    {
+      "carrier_code": "WV",
+      "carrier_name1": "Westair Aviation",
+      "carrier_name2": "Westair Aviation"
+    },
+    {
+      "carrier_code": "WW",
+      "carrier_name1": "Wow Air EHF",
+      "carrier_name2": "Wow Air"
+    },
+    {
+      "carrier_code": "WX",
+      "carrier_name1": "City Jet",
+      "carrier_name2": "City Jet"
+    },
+    {
+      "carrier_code": "WY",
+      "carrier_name1": "Oman Air",
+      "carrier_name2": "Oman Air"
+    },
+    {
+      "carrier_code": "WZ",
+      "carrier_name1": "Red Wings Airlines",
+      "carrier_name2": "Red Wings"
+    },
+    {
+      "carrier_code": "X3",
+      "carrier_name1": "TUIfly GmbH",
+      "carrier_name2": "TUIfly"
+    },
+    {
+      "carrier_code": "X4",
+      "carrier_name1": "Air Excursions LLC",
+      "carrier_name2": "Air Excursions"
+    },
+    {
+      "carrier_code": "X5",
+      "carrier_name1": "Afrique Airlines",
+      "carrier_name2": "Afrique Airlines"
+    },
+    {
+      "carrier_code": "X8",
+      "carrier_name1": "Icaro",
+      "carrier_name2": "Icaro"
+    },
+    {
+      "carrier_code": "X9",
+      "carrier_name1": "Avion Express",
+      "carrier_name2": "Avion Express"
+    },
+    {
+      "carrier_code": "XA",
+      "carrier_name1": "Railroad",
+      "carrier_name2": "Railroad"
+    },
+    {
+      "carrier_code": "XB",
+      "carrier_name1": "IATA BSP",
+      "carrier_name2": "IATA BSP"
+    },
+    {
+      "carrier_code": "XD",
+      "carrier_name1": "Bus",
+      "carrier_name2": "Bus"
+    },
+    {
+      "carrier_code": "XE",
+      "carrier_name1": "Express Jet Airlines",
+      "carrier_name2": "Express Jet"
+    },
+    {
+      "carrier_code": "XG",
+      "carrier_name1": "SunExpress Deutschland",
+      "carrier_name2": "SunExpress DE"
+    },
+    {
+      "carrier_code": "XH",
+      "carrier_name1": "Other Travel",
+      "carrier_name2": "Other Travel"
+    },
+    {
+      "carrier_code": "XI",
+      "carrier_name1": "Charter",
+      "carrier_name2": "Charter"
+    },
+    {
+      "carrier_code": "XJ",
+      "carrier_name1": "Thai Air Asia X",
+      "carrier_name2": "Thai Air Asia X"
+    },
+    {
+      "carrier_code": "XK",
+      "carrier_name1": "Air Corsica",
+      "carrier_name2": "Air Corsica"
+    },
+    {
+      "carrier_code": "XL",
+      "carrier_name1": "LATAM Airlines Ecuador",
+      "carrier_name2": "LATAM Ecuador"
+    },
+    {
+      "carrier_code": "XN",
+      "carrier_name1": "PT Travel Express Aviation Service",
+      "carrier_name2": "Travel Express"
+    },
+    {
+      "carrier_code": "XO",
+      "carrier_name1": "SEAIR International",
+      "carrier_name2": "SEAIR Int."
+    },
+    {
+      "carrier_code": "XP",
+      "carrier_name1": "TEM Enterprises Inc",
+      "carrier_name2": "TEM Enterprises"
+    },
+    {
+      "carrier_code": "XQ",
+      "carrier_name1": "SunExpress",
+      "carrier_name2": "SunExpress"
+    },
+    {
+      "carrier_code": "XR",
+      "carrier_name1": "Corendon Airlines Europe",
+      "carrier_name2": "Corendon Airline"
+    },
+    {
+      "carrier_code": "XU",
+      "carrier_name1": "African Express Airways",
+      "carrier_name2": "African Express"
+    },
+    {
+      "carrier_code": "XW",
+      "carrier_name1": "NokScoot Airlines Co Ltd",
+      "carrier_name2": "NokScoot Airline"
+    },
+    {
+      "carrier_code": "XY",
+      "carrier_name1": "Flynas National Air Service",
+      "carrier_name2": "Flynas"
+    },
+    {
+      "carrier_code": "XZ",
+      "carrier_name1": "South African Express Airways",
+      "carrier_name2": "South African Ex"
+    },
+    {
+      "carrier_code": "Y0",
+      "carrier_name1": "Yellow Air Taxi",
+      "carrier_name2": "Yellow Air Taxi"
+    },
+    {
+      "carrier_code": "Y2",
+      "carrier_name1": "Air Century",
+      "carrier_name2": "Air Century"
+    },
+    {
+      "carrier_code": "Y3",
+      "carrier_name1": "SKY KG Airlines",
+      "carrier_name2": "SKY KG Airlines"
+    },
+    {
+      "carrier_code": "Y4",
+      "carrier_name1": "Concesionaria Vuela Compania De Avi",
+      "carrier_name2": "Volaris"
+    },
+    {
+      "carrier_code": "Y5",
+      "carrier_name1": "Golden Myanmar Airlines",
+      "carrier_name2": "Golden Myanmar"
+    },
+    {
+      "carrier_code": "Y7",
+      "carrier_name1": "JSC Airline Taimyr",
+      "carrier_name2": "JSC Airline Taim"
+    },
+    {
+      "carrier_code": "Y8",
+      "carrier_name1": "Yangtze River Airlines",
+      "carrier_name2": "Yangtze River Ex"
+    },
+    {
+      "carrier_code": "YC",
+      "carrier_name1": "Yamal Airlines",
+      "carrier_name2": "Yamal Airlines"
+    },
+    {
+      "carrier_code": "YD",
+      "carrier_name1": "Mauritania Airways",
+      "carrier_name2": "Mauritania Air"
+    },
+    {
+      "carrier_code": "YE",
+      "carrier_name1": "YanAir",
+      "carrier_name2": "YanAir"
+    },
+    {
+      "carrier_code": "YH",
+      "carrier_name1": "Sunsplash Aviation LLC",
+      "carrier_name2": "Sunspalsh LLC"
+    },
+    {
+      "carrier_code": "YI",
+      "carrier_name1": "Air Sunshine Inc",
+      "carrier_name2": "Air Sunshine"
+    },
+    {
+      "carrier_code": "YJ",
+      "carrier_name1": "AMC Airlines",
+      "carrier_name2": "AMC Airlines"
+    },
+    {
+      "carrier_code": "YL",
+      "carrier_name1": "Libyan Wings",
+      "carrier_name2": "Libyan Wings"
+    },
+    {
+      "carrier_code": "YM",
+      "carrier_name1": "Montenegro Airlines",
+      "carrier_name2": "Montenegro"
+    },
+    {
+      "carrier_code": "YN",
+      "carrier_name1": "Air Creebec (1994) Inc",
+      "carrier_name2": "Air Creebec"
+    },
+    {
+      "carrier_code": "YQ",
+      "carrier_name1": "TAR Aerolineas",
+      "carrier_name2": "TAR Aerolineas"
+    },
+    {
+      "carrier_code": "YS",
+      "carrier_name1": "HOP Regional",
+      "carrier_name2": "HOP Regional"
+    },
+    {
+      "carrier_code": "YT",
+      "carrier_name1": "Yeti Airlines Domestic Pvt Ltd",
+      "carrier_name2": "Yeti Airlines"
+    },
+    {
+      "carrier_code": "YU",
+      "carrier_name1": "Euroatlantic Airways",
+      "carrier_name2": "Euroatlantic Air"
+    },
+    {
+      "carrier_code": "YV",
+      "carrier_name1": "Mesa Airlines Inc",
+      "carrier_name2": "Mesa Airlines"
+    },
+    {
+      "carrier_code": "YW",
+      "carrier_name1": "Air Nostrum L.A.M.S.A",
+      "carrier_name2": "Air Nostrum"
+    },
+    {
+      "carrier_code": "YY",
+      "carrier_name1": "All Airlines",
+      "carrier_name2": "All Airlines"
+    },
+    {
+      "carrier_code": "Z3",
+      "carrier_name1": "Tanana Air Service",
+      "carrier_name2": "Tanana Air"
+    },
+    {
+      "carrier_code": "Z7",
+      "carrier_name1": "Amaszonas Uruguay",
+      "carrier_name2": "Amaszonas"
+    },
+    {
+      "carrier_code": "Z9",
+      "carrier_name1": "JSC Bek Air",
+      "carrier_name2": "JSC Bek Air"
+    },
+    {
+      "carrier_code": "ZA",
+      "carrier_name1": "Skywings Asia Airlines Co",
+      "carrier_name2": "Skywings Asia"
+    },
+    {
+      "carrier_code": "ZB",
+      "carrier_name1": "Monarch Airlines",
+      "carrier_name2": "Monarch Airlines"
+    },
+    {
+      "carrier_code": "ZC",
+      "carrier_name1": "flyafrica - Zimbabwe",
+      "carrier_name2": "FlyAfrica Zimbab"
+    },
+    {
+      "carrier_code": "ZD",
+      "carrier_name1": "EWA Air",
+      "carrier_name2": "EWA Air"
+    },
+    {
+      "carrier_code": "ZH",
+      "carrier_name1": "Shenzhen Airlines",
+      "carrier_name2": "Shenzhen Airline"
+    },
+    {
+      "carrier_code": "ZI",
+      "carrier_name1": "Aigle Azur",
+      "carrier_name2": "Aigle Azur"
+    },
+    {
+      "carrier_code": "ZJ",
+      "carrier_name1": "Zambezi Airlines",
+      "carrier_name2": "Zambezi Airlines"
+    },
+    {
+      "carrier_code": "ZK",
+      "carrier_name1": "Great Lakes Aviation Ltd",
+      "carrier_name2": "Great Lakes"
+    },
+    {
+      "carrier_code": "ZL",
+      "carrier_name1": "Regional Express Pty Limited",
+      "carrier_name2": "Regional Express"
+    },
+    {
+      "carrier_code": "ZM",
+      "carrier_name1": "Air Manas",
+      "carrier_name2": "Air Manas"
+    },
+    {
+      "carrier_code": "ZP",
+      "carrier_name1": "Paranair",
+      "carrier_name2": "Paranair"
+    },
+    {
+      "carrier_code": "ZQ",
+      "carrier_name1": "Azman Air Services",
+      "carrier_name2": "Azman Air"
+    },
+    {
+      "carrier_code": "ZR",
+      "carrier_name1": "Alexandria Airlines",
+      "carrier_name2": "Alexandria Air"
+    },
+    {
+      "carrier_code": "ZW",
+      "carrier_name1": "Air Wisconsin Airlines Corporation",
+      "carrier_name2": "Air Wisconsin"
+    },
+    {
+      "carrier_code": "ZX",
+      "carrier_name1": "Air Georgia dba Air Alliance",
+      "carrier_name2": "Air Alliance"
+    },
+    {
+      "carrier_code": "ZY",
+      "carrier_name1": "China Air Cargo",
+      "carrier_name2": "China Air Cargo"
+    },
+    {
+      "carrier_code": "ZZ",
+      "carrier_name1": "TEST",
+      "carrier_name2": "TEST"
+    }
+]
+  

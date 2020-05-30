@@ -1,0 +1,684 @@
+[
+    {
+        "rowNum": "1",
+        "seats": [
+            {
+                "Type": "Seat",
+                "SeatCode": "1-A",
+                "Availability": "NoSeat",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    },
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "1-C",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Bulkhead",
+                        "PADISCode": "K"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },
+            {
+                "Type": "Aisle"
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "1-G",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Bulkhead",
+                        "PADISCode": "K"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "1-J",
+                "Availability": "NoSeat",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    },
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "rowNum": "2",
+        "seats": [
+            {
+                "Type": "Seat",
+                "SeatCode": "2-A",
+                "Availability": "Occupied",
+                "characterstics": {
+                    "Value": "Blocked",
+                    "PADISCode": "BK"
+                }
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "2-C",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Right",
+                        "PADISCode": "RS"
+                    }
+                ]
+            },
+            {
+                "Type": "Aisle"
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "2-G",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Left",
+                        "PADISCode": "LS"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "2-J",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    },
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Right",
+                        "PADISCode": "RS"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "rowNum": "3",
+        "seats": [
+            {
+                "Type": "Seat",
+                "SeatCode": "3-A",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    },
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "3-C",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Right",
+                        "PADISCode": "RS"
+                    }
+                ]
+            },
+            {
+                "Type": "Aisle"
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "3-G",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Left",
+                        "PADISCode": "LS"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "3-J",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    },
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Right",
+                        "PADISCode": "RS"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "rowNum": "4",
+        "seats": [
+            {
+                "Type": "Seat",
+                "SeatCode": "4-A",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    },
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Left",
+                        "PADISCode": "LS"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "4-C",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },
+            {
+                "Type": "Aisle"
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "4-G",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "4-J",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    },
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Right",
+                        "PADISCode": "RS"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "rowNum": "5",
+        "seats": [
+            {
+                "Type": "Seat",
+                "SeatCode": "5-A",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    },
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Left",
+                        "PADISCode": "LS"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "5-C",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },
+            {
+                "Type": "Aisle"
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "5-G",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "5-J",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    },
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "rowNum": "6",
+        "seats": [
+            {
+                "Type": "Seat",
+                "SeatCode": "6-A",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    },
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "6-C",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Right",
+                        "PADISCode": "RS"
+                    }
+                ]
+            },
+            {
+                "Type": "Aisle"
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "6-G",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Left",
+                        "PADISCode": "LS"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "6-J",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    },
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Right",
+                        "PADISCode": "RS"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "rowNum": "7",
+        "seats": [
+            {
+                "Type": "Seat",
+                "SeatCode": "7-A",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    },
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Left",
+                        "PADISCode": "LS"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "7-C",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },
+            {
+                "Type": "Aisle"
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "7-G",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "7-J",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    },
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "rowNum": "8",
+        "seats": [
+            {
+                "Type": "Seat",
+                "SeatCode": "8-A",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    },
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "8-C",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },
+            {
+                "Type": "Aisle"
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "8-G",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "8-J",
+                "Availability": "Reserved",
+                "characterstics": [
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    },
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "Right",
+                        "PADISCode": "RS"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "rowNum": "9",
+        "seats": [
+            {
+                "Type": "Seat",
+                "SeatCode": "9-A",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    },
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    }
+                ]
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "9-C",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },
+            {
+                "Type": "Aisle"
+            },
+            {
+                "Type": "Seat",
+                "SeatCode": "9-G",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    }
+                ]
+            },            
+            {
+                "Type": "Seat",
+                "SeatCode": "9-J",
+                "Availability": "Available",
+                "characterstics": [
+                    {
+                        "Value": "Aisle",
+                        "PADISCode": "A"
+                    },
+                    {
+                        "Value": "NoSmokingSeat",
+                        "PADISCode": "N"
+                    },
+                    {
+                        "Value": "Window",
+                        "PADISCode": "W"
+                    }
+                ]
+            }
+        ]
+    }
+]
